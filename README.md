@@ -1,6 +1,8 @@
 # Monokai GRS
 Dark theme based on color shema Monokai
 
+> Theme is not finished yet
+
 ## Installation
 Launch VS Code, quick open `Ctrl+P`, paste the following command, and press enter.
 
