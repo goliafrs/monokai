@@ -25,24 +25,6 @@
 				<string>#3C3C3C</string>
 				<key>selection</key>
 				<string>#505050</string>
-				<key>findHighlight</key>
-				<string>#FFE792</string>
-				<key>findHighlightForeground</key>
-				<string>#000000</string>
-				<key>selectionBorder</key>
-				<string>#222218</string>
-				<key>activeGuide</key>
-				<string>#9D550FB0</string>
-				<key>bracketsForeground</key>
-				<string>#FF0000</string>
-				<key>bracketsOptions</key>
-				<string></string>
-				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
-				<key>bracketContentsOptions</key>
-				<string>underline</string>
-				<key>tagsOptions</key>
-				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -93,7 +75,8 @@
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other</string>
+			<string>constant.character,
+constant.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -106,7 +89,12 @@
 			<key>scope</key>
 			<string>variable,
 variable.language,
-support.other.variable</string>
+support.other.variable,
+meta.definition.variable.name,
+support.variable,
+meta.object-literal.key,
+meta.object-literal.key entity.name.function,
+support.constant.dom</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -122,9 +110,7 @@ support.other.variable</string>
 			<string>keyword,
 keyword.control,
 keyword.operator,
-keyword.operator.new,
-keyword.operator.expression,
-keyword.other.unit</string>
+keyword.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -135,10 +121,7 @@ keyword.other.unit</string>
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>storage,
-storage.modifier,
-storage.modifier.import.java,
-storage.modifier.package.java</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -227,7 +210,7 @@ storage.modifier.package.java</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag attribute</string>
+			<string>Attribute name</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
@@ -255,8 +238,7 @@ storage.modifier.package.java</string>
 			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
-			<string>constant,
-support.constant</string>
+			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -330,7 +312,7 @@ support.constant</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.deleted</string>
+			<string>Markup deleted</string>
 			<key>scope</key>
 			<string>markup.deleted</string>
 			<key>settings</key>
@@ -341,7 +323,7 @@ support.constant</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.inserted</string>
+			<string>Markup inserted</string>
 			<key>scope</key>
 			<string>markup.inserted</string>
 			<key>settings</key>
@@ -352,7 +334,7 @@ support.constant</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.changed</string>
+			<string>Markup changed</string>
 			<key>scope</key>
 			<string>markup.changed</string>
 			<key>settings</key>
@@ -373,6 +355,17 @@ support.constant</string>
 		<dict>
 			<key>scope</key>
 			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>REGEXP</string>
+			<key>scope</key>
+			<string>constant.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
