@@ -15,6 +15,7 @@ JS example code:
 
 ## Credits
 Tested on VS Code by [Equals182](https://github.com/Equals182)
+
 Created in [thTheme editor](http://tmtheme-editor.herokuapp.com)
 
 ## License
