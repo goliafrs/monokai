@@ -363,7 +363,7 @@ support.function</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.monokai</string>
+	<string>theme.dark.monokai_grs</string>
 	<key>author</key>
 	<string>GoliafRS</string>
 	<key>comment</key>
