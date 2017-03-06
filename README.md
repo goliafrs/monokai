@@ -13,4 +13,6 @@ JS example code:
 
 ![Example JS](example-js.png)
 
+Tested on VS Code by [Equals182](https://github.com/Equals182).
+
 [MIT License](LICENSE)
