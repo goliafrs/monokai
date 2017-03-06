@@ -105,7 +105,8 @@
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable,
-variable.language</string>
+variable.language,
+support.other.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -134,7 +135,10 @@ keyword.other.unit</string>
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>storage,
+storage.modifier,
+storage.modifier.import.java,
+storage.modifier.package.java</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -251,7 +255,8 @@ keyword.other.unit</string>
 			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
-			<string>support.constant</string>
+			<string>constant,
+support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -271,17 +276,6 @@ keyword.other.unit</string>
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#66D9EF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library variable</string>
-			<key>scope</key>
-			<string>support.other.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -383,19 +377,6 @@ keyword.other.unit</string>
 			<dict>
 				<key>foreground</key>
 				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>unknow</string>
-			<key>scope</key>
-			<string>support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, entity.name.tag, storage.modifier,
-storage.modifier.import.java,
-storage.modifier.package.java</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF0000</string>
 			</dict>
 		</dict>
 	</array>
