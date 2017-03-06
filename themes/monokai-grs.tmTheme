@@ -88,7 +88,7 @@ constant.other</string>
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable,
-variable.language,
+
 support.other.variable,
 meta.definition.variable.name,
 support.variable,
@@ -249,19 +249,6 @@ keyword.other</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library class&#x2f;type</string>
-			<key>scope</key>
-			<string>support.type, support.class</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#66D9EF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
@@ -301,13 +288,13 @@ keyword.other</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.header</string>
+			<string>Diff</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#787878</string>
 			</dict>
 		</dict>
 		<dict>
@@ -370,6 +357,17 @@ keyword.other</string>
 			<dict>
 				<key>foreground</key>
 				<string>#E6DB74</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library variable</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 	</array>
