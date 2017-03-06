@@ -45,7 +45,35 @@
 			<string>string,
 string.tag,
 string.value,
-meta.preprocessor.string</string>
+meta.preprocessor.string,
+meta.return-type,
+meta.type.cast.expr,
+meta.type.new.expr,
+support.class,
+support.type,
+support.constant.math,
+support.constant.dom,
+support.constant.json,
+entity.name.type,
+entity.name.class,
+storage.type.cs,
+storage.type.generic.cs,
+storage.type.modifier.cs,
+storage.type.variable.cs,
+storage.type.annotation.java,
+storage.type.generic.java,
+storage.type.java,
+storage.type.object.array.java,
+storage.type.primitive.array.java,
+storage.type.primitive.java,
+storage.type.token.java,
+storage.type.groovy,
+storage.type.annotation.groovy,
+storage.type.parameters.groovy,
+storage.type.generic.groovy,
+storage.type.object.array.groovy,
+storage.type.primitive.array.groovy,
+storage.type.primitive.groovy,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -158,8 +186,6 @@ keyword.other</string>
 			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>
@@ -172,7 +198,7 @@ keyword.other</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic underline</string>
+				<string>italic </string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>
@@ -399,6 +425,23 @@ string.regexp</string>
 			<dict>
 				<key>foreground</key>
 				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Value</string>
+			<key>scope</key>
+			<string>support.constant.property-value,
+support.constant.font-name,
+support.constant.media-type,
+support.constant.media,
+constant.other.color.rgb-value,
+constant.other.rgb-value,
+support.constant.color</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD971F</string>
 			</dict>
 		</dict>
 	</array>
