@@ -44,6 +44,7 @@
 			<key>scope</key>
 			<string>string,
 string.value,
+string.quoted.double.json,
 meta.return-type,
 meta.type.cast.expr,
 meta.type.new.expr,
@@ -290,17 +291,6 @@ support.constant.dom</string>
 			<dict>
 				<key>background</key>
 				<string>#AE81FF</string>
-				<key>foreground</key>
-				<string>#F0F0F0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
 				<key>foreground</key>
 				<string>#F0F0F0</string>
 			</dict>
