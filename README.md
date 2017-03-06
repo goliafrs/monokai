@@ -13,8 +13,9 @@ JS example code:
 
 ![Example JS](example-js.png)
 
-## Thanks && credits
-Tested on VS Code by [Equals182](https://github.com/Equals182).
+## Credits
+Tested on VS Code by [Equals182](https://github.com/Equals182)
+Created in[thTheme editor](http://tmtheme-editor.herokuapp.com)
 
 ## License
 [MIT License](LICENSE)
