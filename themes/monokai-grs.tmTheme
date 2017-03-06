@@ -88,7 +88,6 @@ constant.other</string>
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable,
-
 support.other.variable,
 meta.definition.variable.name,
 support.variable,
@@ -173,7 +172,8 @@ keyword.other</string>
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function</string>
+			<string>entity.name.function,
+support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -219,19 +219,6 @@ keyword.other</string>
 				<string></string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#66D9EF</string>
 			</dict>
 		</dict>
 		<dict>
