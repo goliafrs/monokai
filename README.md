@@ -13,6 +13,8 @@ JS example code:
 
 ![Example JS](example-js.png)
 
+## Thanks && credits
 Tested on VS Code by [Equals182](https://github.com/Equals182).
 
+## License
 [MIT License](LICENSE)
