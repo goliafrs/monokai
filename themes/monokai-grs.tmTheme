@@ -22,9 +22,9 @@
 				<key>invisibles</key>
 				<string>#3C3C3C</string>
 				<key>lineHighlight</key>
-				<string>#3C3C3C</string>
+				<string>#3C3C3C80</string>
 				<key>selection</key>
-				<string>#505050</string>
+				<string>#141414</string>
 			</dict>
 		</dict>
 		<dict>
@@ -54,7 +54,8 @@ support.constant.math,
 support.constant.dom,
 support.constant.json,
 entity.name.type,
-entity.name.class</string>
+entity.name.class,
+markup.inline.raw</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -415,8 +416,7 @@ string.regexp</string>
 			<key>name</key>
 			<string>Meta selector</string>
 			<key>scope</key>
-			<string>meta.selector,
-markup.inline.raw</string>
+			<string>meta.selector</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -431,9 +431,9 @@ markup.inline.raw</string>
 support.constant.font-name,
 support.constant.media-type,
 support.constant.media,
+support.constant.color,
 constant.other.color.rgb-value,
-constant.other.rgb-value,
-support.constant.color</string>
+constant.other.rgb-value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
