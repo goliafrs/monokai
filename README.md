@@ -1,5 +1,5 @@
 # Monokai GRS
-Dark theme based on color shema Monokai.
+Dark theme based on color shema Monokai
 
 ## Screenshot
 JS example code:
