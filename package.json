@@ -2,7 +2,7 @@
   "name": "monokai-grs",
   "displayName": "Monokai GRS",
   "description": "Monokai theme for Visual Studio Code.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "GoliafRS",
   "engines": {
     "vscode": "^1.10.0"
