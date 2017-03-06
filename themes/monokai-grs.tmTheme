@@ -42,7 +42,10 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string,
+string.tag,
+string.value,
+meta.preprocessor.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -53,7 +56,8 @@
 			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>constant.numeric,
+meta.preprocessor.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
