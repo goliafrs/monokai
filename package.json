@@ -16,5 +16,10 @@
       "uiTheme": "vs-dark",
       "path": "./themes/monokai-grs.tmTheme"
     }]
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoliafRS/Monokai-GRS.git"
   }
 }
