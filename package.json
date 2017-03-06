@@ -15,7 +15,7 @@
             {
                 "label": "Monokai GRS",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Monokai.tmTheme"
+                "path": "./themes/monokai-grs.tmTheme"
             }
         ]
     }
