@@ -2,7 +2,7 @@
   "name": "monokai-grs",
   "displayName": "Monokai GRS",
   "description": "Dark theme based on color shema Monokai",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "GoliafRS",
   "engines": {
     "vscode": "^1.10.0"

@@ -88,12 +88,17 @@ constant.other</string>
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable,
-support.other.variable,
-meta.definition.variable.name,
+variable.css,
+variable.scss,
+variable.other.less,
+variable.language,
 support.variable,
+support.other.variable,
+support.type.vendored.property-name,
+support.type.property-name,
+meta.definition.variable.name,
 meta.object-literal.key,
-meta.object-literal.key entity.name.function,
-support.constant.dom</string>
+meta.object-literal.key entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -225,7 +230,8 @@ support.function</string>
 			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
-			<string>support.constant</string>
+			<string>support.constant,
+support.constant.dom</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -339,7 +345,8 @@ support.function</string>
 			<key>name</key>
 			<string>REGEXP</string>
 			<key>scope</key>
-			<string>constant.regexp</string>
+			<string>constant.regexp,
+string.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -355,6 +362,39 @@ support.function</string>
 			<dict>
 				<key>foreground</key>
 				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta selector</string>
+			<key>scope</key>
+			<string>meta.selector</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 	</array>
