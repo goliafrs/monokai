@@ -14,8 +14,8 @@ JS example code:
 ![Example JS](example-js.png)
 
 ## Credits
-Tested on VS Code by @Equals182
-!Created in [thTheme editor](http://tmtheme-editor.herokuapp.com)
+- Tested on VS Code by @Equals182
+- Created in [thTheme editor](http://tmtheme-editor.herokuapp.com)
 
 ## License
 [MIT License](LICENSE)
