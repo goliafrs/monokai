@@ -1,2 +1,2 @@
-# Monokai-Dark-Soda
-Theme Monokai Dark Soda for Microsoft Visual Studio Code.
+# Monokai GRS
+Theme Monokai for Visual Studio Code.
