@@ -1,4 +1,10 @@
+## 0.0.14
+
++ selection
++ selectionHighlight
+
 ## 0.0.13
+
 ## 0.0.12
 
 ## 0.0.11
