@@ -415,15 +415,10 @@ string.regexp</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Value</string>
+			<string>CSS Media</string>
 			<key>scope</key>
-			<string>support.constant.property-value,
-support.constant.font-name,
-support.constant.media-type,
-support.constant.media,
-support.constant.color,
-constant.other.color.rgb-value,
-constant.other.rgb-value</string>
+			<string>support.constant.media,
+support.constant.media-type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -521,6 +516,21 @@ keyword.operator.expression</string>
 			<dict>
 				<key>foreground</key>
 				<string>#F0F0F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Value</string>
+			<key>scope</key>
+			<string>support.constant.property-value,
+support.constant.font-name,
+support.constant.color,
+constant.other.color.rgb-value,
+constant.other.rgb-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FF</string>
 			</dict>
 		</dict>
 	</array>
