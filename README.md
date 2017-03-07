@@ -17,3 +17,7 @@ JS example code:
 
 ## Credits
 - Tested by [Equals182](https://github.com/Equals182)
+- Created in [thTheme editor](http://tmtheme-editor.herokuapp.com)
+
+## License
+[MIT License](LICENSE)
