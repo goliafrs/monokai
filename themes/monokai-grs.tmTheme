@@ -51,9 +51,9 @@
         <key>name</key>
         <string>String</string>
         <key>scope</key>
-        <string>string, string.value, string.quoted.double.json, meta.return-type, meta.type.cast.expr, meta.type.new.expr, meta.preprocessor.string,
-          support.type, support.constant.math, support.constant.dom, support.constant.json, entity.name.type, entity.name.class,
-          markup.inline.raw</string>
+        <string>string, string.value, string.quoted.double.json, string.quoted.double.html, meta.return-type, meta.type.cast.expr,
+          meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom, support.constant.json,
+          entity.name.type, markup.inline.raw</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -119,8 +119,6 @@
         </string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#66D9EF</string>
         </dict>
@@ -154,8 +152,6 @@
         <string>storage, storage.modifier</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#F92672</string>
         </dict>
@@ -200,8 +196,6 @@
         <string>entity.name.function, support.function</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#A6E22E</string>
         </dict>
@@ -224,8 +218,6 @@
         <string>entity.name.tag</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#F92672</string>
         </dict>
@@ -237,8 +229,6 @@
         <string>entity.other.attribute-name</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#A6E22E</string>
         </dict>
@@ -250,8 +240,6 @@
         <string>support.constant, support.constant.dom</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#66D9EF</string>
         </dict>
@@ -276,8 +264,6 @@
         <dict>
           <key>background</key>
           <string>#F92672</string>
-          <key>fontStyle</key>
-          <string></string>
           <key>foreground</key>
           <string>#F0F0F0</string>
         </dict>
@@ -347,7 +333,7 @@
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
-          <string> underline</string>
+          <string>underline</string>
         </dict>
       </dict>
       <dict>
@@ -358,7 +344,7 @@
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
-          <string> bold</string>
+          <string>bold</string>
         </dict>
       </dict>
       <dict>
@@ -493,6 +479,17 @@
         <dict>
           <key>foreground</key>
           <string>#A6E22E</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>PHP punctuation expression</string>
+        <key>scope</key>
+        <string>punctuation.terminator.expression.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0F0F0</string>
         </dict>
       </dict>
       <dict>
