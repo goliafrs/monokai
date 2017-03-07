@@ -410,15 +410,16 @@ string.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#F0F0F0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Media</string>
+			<string>CSS media</string>
 			<key>scope</key>
 			<string>support.constant.media,
-support.constant.media-type</string>
+support.constant.media-type,
+keyword.control.at-rule.media.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -427,7 +428,7 @@ support.constant.media-type</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Punctuation</string>
+			<string>PHP punctuation</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.begin.metatag.php,
 punctuation.section.embedded.end.metatag.php</string>
@@ -439,7 +440,7 @@ punctuation.section.embedded.end.metatag.php</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Mixin</string>
+			<string>CSS mixin</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.mixin.css</string>
 			<key>settings</key>
@@ -473,7 +474,7 @@ entity.other.attribute-name.attribute.scss</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Pseudo</string>
+			<string>CSS pseudo</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.pseudo-class.css,
 entity.other.attribute-name.pseudo-element.css</string>
@@ -485,7 +486,7 @@ entity.other.attribute-name.pseudo-element.css</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Class</string>
+			<string>CSS class</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
@@ -496,7 +497,7 @@ entity.other.attribute-name.pseudo-element.css</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML Punctuantion</string>
+			<string>HTML punctuantion</string>
 			<key>scope</key>
 			<string>punctuation.definition.tag</string>
 			<key>settings</key>
@@ -520,7 +521,7 @@ keyword.operator.expression</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Value</string>
+			<string>CSS value</string>
 			<key>scope</key>
 			<string>support.constant.property-value,
 support.constant.font-name,
@@ -531,6 +532,28 @@ constant.other.rgb-value</string>
 			<dict>
 				<key>foreground</key>
 				<string>#AE81FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS media operator</string>
+			<key>scope</key>
+			<string>meta.at-rule.media.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag.reference.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F0F0F0</string>
 			</dict>
 		</dict>
 	</array>
