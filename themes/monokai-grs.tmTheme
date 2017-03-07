@@ -7,17 +7,6 @@
     <key>settings</key>
     <array>
       <dict>
-        <key>name</key>
-        <string>Text</string>
-        <key>scope</key>
-        <string>text.xml</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#f0f0f0</string>
-        </dict>
-      </dict>
-      <dict>
         <key>settings</key>
         <dict>
           <key>background</key>
@@ -31,9 +20,20 @@
           <key>lineHighlight</key>
           <string>#3C3C3C80</string>
           <key>selection</key>
-          <string>#E6DB74CC</string>
+          <string>#505050</string>
           <key>selectionHighlight</key>
-          <string>#E6DB7466</string>
+          <string>#50505080</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Text</string>
+        <key>scope</key>
+        <string>text.xml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f0f0f0</string>
         </dict>
       </dict>
       <dict>
@@ -52,8 +52,19 @@
         <string>String</string>
         <key>scope</key>
         <string>string, string.value, string.quoted.double.json, meta.return-type, meta.type.cast.expr, meta.type.new.expr, meta.preprocessor.string,
-          support.class, support.type, support.constant.math, support.constant.dom, support.constant.json, entity.name.type,
-          entity.name.class, markup.inline.raw</string>
+          support.type, support.constant.math, support.constant.dom, support.constant.json, entity.name.type, entity.name.class,
+          markup.inline.raw</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E6DB74</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>REGEXP</string>
+        <key>scope</key>
+        <string>constant.regexp, string.regexp</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -123,6 +134,17 @@
         <dict>
           <key>foreground</key>
           <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword operator</string>
+        <key>scope</key>
+        <string>keyword.operator, keyword.operator.new, keyword.operator.expression</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0F0F0</string>
         </dict>
       </dict>
       <dict>
@@ -236,6 +258,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Library variable</string>
+        <key>scope</key>
+        <string>variable.language</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Invalid</string>
         <key>scope</key>
         <string>invalid</string>
@@ -307,46 +340,6 @@
         </dict>
       </dict>
       <dict>
-        <key>scope</key>
-        <string>constant.numeric.line-number.find-in-files - match</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#AE81FFA0</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>entity.name.filename.find-in-files</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#E6DB74</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>REGEXP</string>
-        <key>scope</key>
-        <string>constant.regexp, string.regexp</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#E6DB74</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Library variable</string>
-        <key>scope</key>
-        <string>variable.language</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F92672</string>
-        </dict>
-      </dict>
-      <dict>
         <key>name</key>
         <string>Markup underline</string>
         <key>scope</key>
@@ -392,17 +385,6 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>PHP punctuation</string>
-        <key>scope</key>
-        <string>punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#A6E22E</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>CSS mixin</string>
         <key>scope</key>
         <string>entity.other.attribute-name.class.mixin.css</string>
@@ -417,17 +399,6 @@
         <string>CSS ID</string>
         <key>scope</key>
         <string>entity.other.attribute-name.id.css</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F92672</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>SCSS atribute name</string>
-        <key>scope</key>
-        <string>entity.other.attribute-name.scss, entity.other.attribute-name.attribute.scss</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -458,32 +429,11 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>HTML punctuantion</string>
-        <key>scope</key>
-        <string>punctuation.definition.tag</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F92672</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Keyword operator</string>
-        <key>scope</key>
-        <string>keyword.operator, keyword.operator.new, keyword.operator.expression</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F0F0F0</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>CSS value</string>
         <key>scope</key>
         <string>support.constant.property-value, support.constant.font-name, support.constant.color, constant.other.color.rgb-value,
-          constant.other.rgb-value</string>
+          constant.other.rgb-value
+        </string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -512,6 +462,50 @@
           <string>#F0F0F0</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>SCSS atribute name</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.scss, entity.other.attribute-name.attribute.scss</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML punctuantion</string>
+        <key>scope</key>
+        <string>punctuation.definition.tag</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>PHP punctuation</string>
+        <key>scope</key>
+        <string>punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#A6E22E</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JS punctuation</string>
+        <key>scope</key>
+        <string>punctuation.separator.key-value.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0F0F0</string>
+        </dict>
+      </dict>
     </array>
     <key>uuid</key>
     <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
@@ -522,6 +516,6 @@
     <key>author</key>
     <string>GoliafRS</string>
     <key>comment</key>
-    <string>Monokai theme for Visual Studio Code.</string>
+    <string>Monokai theme for Visual Studio Code</string>
   </dict>
 </plist>
