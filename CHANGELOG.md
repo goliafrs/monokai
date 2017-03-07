@@ -1,7 +1,7 @@
 ## 0.0.14
 
-+ selection
-+ selectionHighlight
+* [+] selection
+* [+] selectionHighlight
 
 ## 0.0.13
 
