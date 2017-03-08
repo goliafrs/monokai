@@ -51,7 +51,7 @@
         <key>name</key>
         <string>String</string>
         <key>scope</key>
-        <string>string, string.value, string.quoted.double.json, string.quoted.double.html, meta.return-type, meta.type.cast.expr,
+        <string>string, string.value, string.quoted.single.scss, string.quoted.double.json, string.quoted.double.html, meta.return-type, meta.type.cast.expr,
           meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom, support.constant.json,
           entity.name.type, markup.inline.raw</string>
         <key>settings</key>
@@ -450,6 +450,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>SCSS url parameter</string>
+        <key>scope</key>
+        <string>variable.parameter.url.scss</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E6DB74</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>SCSS atribute name</string>
         <key>scope</key>
         <string>entity.other.attribute-name.scss, entity.other.attribute-name.attribute.scss</string>
@@ -501,6 +512,17 @@
         <dict>
           <key>foreground</key>
           <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>PHP text</string>
+        <key>scope</key>
+        <string>constant.other.php, meta.embedded.line.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0F0F0</string>
         </dict>
       </dict>
       <dict>
