@@ -52,8 +52,7 @@
         <string>String</string>
         <key>scope</key>
         <string>string, string.value, string.quoted.single.scss, string.quoted.double.json, string.quoted.double.html, meta.return-type, meta.type.cast.expr,
-          meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom, support.constant.json,
-          entity.name.type, markup.inline.raw</string>
+          meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom, support.constant.json, markup.inline.raw</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -527,6 +526,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>PHP function name</string>
+        <key>scope</key>
+        <string>entity.name.function.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FD971F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>JS punctuation</string>
         <key>scope</key>
         <string>punctuation.separator.key-value.js</string>
@@ -534,6 +544,28 @@
         <dict>
           <key>foreground</key>
           <string>#F0F0F0</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JS keyword operator</string>
+        <key>scope</key>
+        <string>keyword.operator.expression</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JS class</string>
+        <key>scope</key>
+        <string>entity.name.type.class.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FD971F</string>
         </dict>
       </dict>
     </array>
