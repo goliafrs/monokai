@@ -51,8 +51,9 @@
         <key>name</key>
         <string>String</string>
         <key>scope</key>
-        <string>string, string.value, string.quoted.single.scss, string.quoted.double.json, string.quoted.double.html, meta.return-type, meta.type.cast.expr,
-          meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom, support.constant.json, markup.inline.raw</string>
+        <string>string, string.value, string.quoted.single.scss, string.quoted.double.json, string.quoted.double.html, meta.return-type,
+          meta.type.cast.expr, meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom,
+          support.constant.json, markup.inline.raw</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -361,11 +362,22 @@
         <key>name</key>
         <string>CSS media</string>
         <key>scope</key>
-        <string>support.constant.media, support.constant.media-type, keyword.control.at-rule.media.scss</string>
+        <string>support.constant.media, support.constant.media-type, keyword.control.at-rule.media.scss, meta.at-rule.media.scss</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#FD971F</string>
+        </dict>
+      </dict>
+<dict>
+        <key>name</key>
+        <string>CSS media constant</string>
+        <key>scope</key>
+        <string>support.constant.media.css</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#A6E22E</string>
         </dict>
       </dict>
       <dict>
@@ -467,6 +479,17 @@
         <dict>
           <key>foreground</key>
           <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>SCSS @ rule</string>
+        <key>scope</key>
+        <string>keyword.control.at-rule.include.scss, meta.at-rule.include.scss</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
