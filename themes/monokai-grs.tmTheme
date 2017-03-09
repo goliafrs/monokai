@@ -362,7 +362,7 @@
         <key>name</key>
         <string>CSS media</string>
         <key>scope</key>
-        <string>support.constant.media, support.constant.media-type, keyword.control.at-rule.media.scss, meta.at-rule.media.scss</string>
+        <string>support.constant.media, support.constant.media-type, keyword.control.at-rule.media.scss</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
