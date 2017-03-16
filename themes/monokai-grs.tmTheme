@@ -53,7 +53,7 @@
         <key>scope</key>
         <string>string, string.value, string.quoted.single.scss, string.quoted.double.json, string.quoted.double.html, string.quoted.double.php,
           meta.return-type, meta.type.cast.expr, meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom,
-          support.constant.json, markup.inline.raw</string>
+          support.constant.json, markup.inline.raw, invalid.illegal.bad-ampersand.html, constant.character.escape.scss</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -64,7 +64,7 @@
         <key>name</key>
         <string>REGEXP</string>
         <key>scope</key>
-        <string>constant.regexp, string.regexp</string>
+        <string>constant.regexp, string.regexp, string.regexp.double-quoted.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -193,7 +193,7 @@
         <key>name</key>
         <string>Function name</string>
         <key>scope</key>
-        <string>entity.name.function, support.function</string>
+        <string>entity.name.function, support.function, meta.function.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -560,7 +560,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>PHP function construct output</string>
+        <string>PHP constructs</string>
         <key>scope</key>
         <string>support.function.construct.output.php</string>
         <key>settings</key>
@@ -585,6 +585,28 @@
         <string>JS keyword operator</string>
         <key>scope</key>
         <string>keyword.operator.expression</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JS keyword operator rest</string>
+        <key>scope</key>
+        <string>keyword.operator.rest.js, keyword.operator.spread.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#A6E22E</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JS keyword operator new</string>
+        <key>scope</key>
+        <string>keyword.operator.new.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
