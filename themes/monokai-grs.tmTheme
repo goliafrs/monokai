@@ -193,7 +193,7 @@
         <key>name</key>
         <string>Function name</string>
         <key>scope</key>
-        <string>entity.name.function, support.function, meta.function.js</string>
+        <string>entity.name.function, entity.name.function.js, entity.name.type.js, support.function</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
