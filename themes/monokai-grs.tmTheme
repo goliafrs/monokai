@@ -624,6 +624,17 @@
           <string>#FD971F</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>JS JSON constant</string>
+        <key>scope</key>
+        <string>support.constant.json.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0F0F0</string>
+        </dict>
+      </dict>
     </array>
     <key>uuid</key>
     <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
