@@ -571,6 +571,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>PHP array</string>
+        <key>scope</key>
+        <string>support.function.construct.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>JS punctuation</string>
         <key>scope</key>
         <string>punctuation.separator.key-value.js</string>
