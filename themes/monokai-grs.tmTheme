@@ -494,6 +494,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>SCSS property</string>
+        <key>scope</key>
+        <string>meta.property-name.scss</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#66D9EF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>HTML punctuantion</string>
         <key>scope</key>
         <string>punctuation.definition.tag</string>
@@ -644,6 +655,17 @@
         <dict>
           <key>foreground</key>
           <string>#F0F0F0</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>TypeScript operator new</string>
+        <key>scope</key>
+        <string>keyword.operator.new.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F92672</string>
         </dict>
       </dict>
     </array>
