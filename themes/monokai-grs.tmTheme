@@ -566,6 +566,17 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
+          <string>#A6E22E</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>PHP function arguments</string>
+        <key>scope</key>
+        <string>meta.function.arguments.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
           <string>#FD971F</string>
         </dict>
       </dict>
