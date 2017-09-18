@@ -2,7 +2,7 @@
   "name": "monokai-grs",
   "displayName": "Monokai GRS",
   "description": "Dark theme based on color shema Monokai",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "publisher": "GoliafRS",
   "engines": {
     "vscode": "^1.10.0"
@@ -11,11 +11,13 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [{
-      "label": "Monokai GRS",
-      "uiTheme": "vs-dark",
-      "path": "./themes/monokai-grs.tmTheme"
-    }]
+    "themes": [
+      {
+        "label": "Monokai GRS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-grs.tmTheme"
+      }
+    ]
   },
   "icon": "icon.png",
   "repository": {

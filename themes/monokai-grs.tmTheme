@@ -461,6 +461,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>CSS punctuation</string>
+        <key>scope</key>
+        <string>variable.parameter.url.scss</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F0F0F0</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>SCSS url parameter</string>
         <key>scope</key>
         <string>variable.parameter.url.scss</string>
@@ -472,13 +483,24 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>SCSS atribute name</string>
+        <string>CSS atribute name</string>
         <key>scope</key>
-        <string>entity.other.attribute-name.scss, entity.other.attribute-name.attribute.scss</string>
+        <string>entity.name.tag.css</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#F92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>SCSS property name</string>
+        <key>scope</key>
+        <string>meta.property-name.scss</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#66D9EF</string>
         </dict>
       </dict>
       <dict>
@@ -494,9 +516,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>SCSS property</string>
+        <string>CSS property-name</string>
         <key>scope</key>
-        <string>meta.property-name.scss</string>
+        <string>support.type.property-name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -505,7 +527,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>HTML punctuantion</string>
+        <string>HTML punctuation</string>
         <key>scope</key>
         <string>punctuation.definition.tag</string>
         <key>settings</key>
