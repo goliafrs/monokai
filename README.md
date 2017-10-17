@@ -11,6 +11,14 @@ ext install monokai-grs
 ```
 
 ## Screenshot
+HTML example code:
+
+![Example HTML](example-html.png)
+
+CSS example code:
+
+![Example CSS](example-css.png)
+
 JS example code:
 
 ![Example JS](example-js.png)
