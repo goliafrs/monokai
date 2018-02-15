@@ -1,6 +1,7 @@
 .DS_Store
-.vscode
+.nuxt
 
+local_modules
 node_modules
 dist
 
@@ -9,3 +10,5 @@ dist
 .eslintrc.json
 
 *.log
+
+package-lock.json
