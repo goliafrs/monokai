@@ -745,7 +745,7 @@
     "editorHoverWidget.background": "#242424",
     "editorHoverWidget.border": "#101010",
 
-    "input.background": "#151515",
+    "input.background": "#121212",
 
     "list.activeSelectionBackground": "#404040",
     "list.activeSelectionForeground": "#f0f0f0",
