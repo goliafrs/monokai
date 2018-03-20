@@ -16,22 +16,30 @@ Launch VS Code, quick open `Ctrl+P`, paste the following command, and press ente
 ext install monokai-grs
 ```
 
+## Support language
+
+- HTML
+- VUE-HTML
+- CSS
+- SCSS
+- JavaScript
+- Markdown
+
 ## Screenshot
 HTML example code:
 
-![Example HTML](example-html.png)
+![Example HTML](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-html.png)
 
 CSS example code:
 
-![Example CSS](example-css.png)
+![Example CSS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-css.png)
 
 JS example code:
 
-![Example JS](example-js.png)
+![Example JS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-js.png)
 
 ## Credits
 - Tested by [Equals182](https://github.com/Equals182)
-- Created in [thTheme editor](http://tmtheme-editor.herokuapp.com)
 
 ## License
-[MIT License](LICENSE)
+[MIT License](https://github.com/GoliafRS/Monokai-GRS/blob/master/LICENSE)
