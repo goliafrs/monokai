@@ -2,14 +2,10 @@
   "name": "monokai-grs",
   "displayName": "Monokai GRS",
   "description": "Dark theme based on color shema Monokai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "GoliafRS",
-  "engines": {
-    "vscode": "^1.13.0"
-  },
-  "categories": [
-    "Themes"
-  ],
+  "engines": { "vscode": "^1.13.0" },
+  "categories": ["Themes"],
   "icon": "icon.png",
   "contributes": {
     "themes": [
@@ -17,18 +13,22 @@
         "label": "Monokai GRS",
         "uiTheme": "vs-dark",
         "path": "./themes/monokai-grs.tmTheme"
-      }
-    ]
+			}
+		]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/GoliafRS/Monokai-GRS.git"
   },
-  "bugs": {
-    "url": "https://github.com/GoliafRS/Monokai-GRS/issues"
-  },
+  "bugs": { "url": "https://github.com/GoliafRS/Monokai-GRS/issues" },
   "homepage": "https://github.com/GoliafRS/Monokai-GRS/blob/master/README.md",
-  "keywords": ["vscode", "theme", "monokai"],
+  "keywords": [
+		"vscode",
+		"dark",
+		"theme",
+		"monokai",
+		"grs"
+	],
   "author": {
     "name": "GoliafRS",
     "email": "goliaf.rs@gmail.com"
