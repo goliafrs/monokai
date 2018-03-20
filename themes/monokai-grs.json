@@ -732,7 +732,7 @@
     "editor.editor.findMatchBackground": "#ff0000",
     "editor.findMatchHighlightBackground": "#707070",
 
-    "editorError.foreground": "#c24038",
+    "editorError.foreground": "#F92672",
     "editorRuler.foreground": "#505050",
     "editorCursor.foreground": "#F0F0F0",
     "editorGroup.background": "#ff0000",
