@@ -1,4 +1,6 @@
 {
+  "name": "Monokai GRS",
+
   "tokenColors": [{
       "settings": {
         "background": "#282828",
@@ -8,15 +10,9 @@
         "lineHighlight": "#3C3C3C80",
         "findHighlight": "#FFE792",
         "findHighlightForeground": "#000000",
-        "selection": "#646464",
-        "selectionHighlight": "#64646466",
-        "selectionBorder": "#222218",
-        "activeGuide": "#9D550FB0",
-        "bracketsForeground": "#F8F8F2A5",
-        "bracketsOptions": "underline",
-        "bracketContentsForeground": "#F8F8F2A5",
-        "bracketContentsOptions": "underline",
-        "tagsOptions": "stippled_underline"
+        "selection": "#707070",
+        "selectionHighlight": "#80808080",
+        "selectionBorder": "#222218"
       }
     },
     {
@@ -717,9 +713,7 @@
   ],
 
   "colors": {
-    "foreground": "#F0F0F0",
-
-    "activityBar.background": "#282828",
+    "activityBar.background": "#242424",
     "activityBar.foreground": "#F0F0F0",
     "activityBarBadge.background": "#1976D2",
     "activityBarBadge.foreground": "#F0F0F0",
@@ -731,24 +725,25 @@
 
     "diffEditor.insertedTextBackground": "#00809B33",
 
-    "editor.background": "#282828",
-    "editor.lineHighlightBackground": "#404040",
+    "editor.background": "#202020",
+    "editor.foreground": "#F0F0F0",
+    "editor.lineHighlightBackground": "#303030",
     "editor.selectionBackground": "#404040",
     "editor.editor.findMatchBackground": "#ff0000",
-    "editor.findMatchHighlightBackground": "#314365",
+    "editor.findMatchHighlightBackground": "#707070",
 
     "editorError.foreground": "#c24038",
     "editorRuler.foreground": "#505050",
     "editorCursor.foreground": "#F0F0F0",
     "editorGroup.background": "#ff0000",
     "editorGroup.border": "#101010",
-    "editorGroupHeader.tabsBackground": "#202020",
-    "editorIndentGuide.background": "#282828",
+    "editorGroupHeader.tabsBackground": "#181818",
+    "editorIndentGuide.background": "#202020",
     "editorLineNumber.foreground": "#505050",
     "editorWhitespace.foreground": "#505050",
-    "editorWidget.background": "#21252B",
-    "editorHoverWidget.background": "#21252B",
-    "editorHoverWidget.border": "#181A1F",
+    "editorWidget.background": "#242424",
+    "editorHoverWidget.background": "#242424",
+    "editorHoverWidget.border": "#101010",
 
     "input.background": "#151515",
 
@@ -762,12 +757,12 @@
 
     "notification.background": "#202020",
 
-    "scrollbarSlider.background": "#40404066",
-    "scrollbarSlider.activeBackground": "#90909066",
-    "scrollbarSlider.hoverBackground": "#60606066",
+    "scrollbarSlider.background": "#40404080",
+    "scrollbarSlider.activeBackground": "#90909080",
+    "scrollbarSlider.hoverBackground": "#60606080",
 
-    "sideBar.background": "#202020",
-    "sideBarSectionHeader.background": "#282828",
+    "sideBar.background": "#181818",
+    "sideBarSectionHeader.background": "#242424",
 
     "statusBar.background": "#0D47A1",
     "statusBar.foreground": "#F0F0F0",
@@ -775,9 +770,8 @@
     "statusBar.noFolderBackground": "#4A148C",
     "statusBar.debuggingBackground": "#311B92",
 
-    "tab.activeBackground": "#303030",
     "tab.border": "#101010",
+    "tab.activeBackground": "#303030",
     "tab.inactiveBackground": "#202020"
-  },
-  "name": "Monokai GRS"
+  }
 }
