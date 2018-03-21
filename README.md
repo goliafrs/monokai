@@ -30,73 +30,80 @@ ext install monokai-grs
 
 ## Todo list
 
-- [x] focusBorder
-- [x] foreground
-- [x] widget.shadow
-- [x] selection.background
-- [ ] descriptionForeground
-- [x] errorForeground
+- [x] `focusBorder`
+- [x] `foreground`
+- [x] `widget.shadow`
+- [x] `selection.background`
+- [ ] `descriptionForeground`
+- [x] `errorForeground`
 
-- [ ] textBlockQuote.*
-- [ ] textCodeBlock.background
-- [ ] textLink.*
-- [ ] textPreformat.foreground
-- [ ] textSeparator.foreground
 
-- [x] button.*
-- [x] dropdown.*
-- [x] input.*
-- [x] inputOption.activeBorder
-- [ ] inputValidation.*
+- [ ] `textBlockQuote.*`
+- [ ] `textCodeBlock.background`
+- [ ] `textLink.*`
+- [ ] `textPreformat.foreground`
+- [ ] `textSeparator.foreground`
 
-- [x] scrollbar.shadow
-- [x] scrollbarSlider.*
 
-- [x] badge.*
+- [x] `button.*`
+- [x] `dropdown.*`
+- [x] `input.*`
+- [x] `inputOption.activeBorder`
+- [ ] `inputValidation.*`
 
-- [x] progressBar.background
 
-- [x] list.*
+- [x] `scrollbar.shadow`
+- [x] `scrollbarSlider.*`
 
-- [x] editor.background
-- [x] editor.foreground
-- [x] editor.lineHighlightBackground
-- [x] editor.selection*
-- [x] editor.find*
-- [ ] editor.findRangeHighlightBackground
-- [x] editor.word*
-- [x] editor.hoverHighlightBackground
-- [x] editor.lineHighlight*
-- [x] editorLink.activeForeground
-- [x] editor.range*
-- [x] editorWhitespace.foreground
-- [x] editorIndentGuide.background
-- [x] editorRuler.foreground
-- [x] editorCodeLens.foreground
-- [x] editorBracketMatch.*
-- [ ] editorOverviewRuler.*
-- [ ] editorError.*
-- [ ] editorWarning.*
-- [ ] editorInfo.*
-- [ ] editorGutter.*
-- [ ] diffEditor.*
-- [ ] editorWidget.*
-- [ ] editorSuggestWidget.*
-- [ ] editorHoverWidget.*
-- [ ] debugExceptionWidget.*
-- [ ] editorMarkerNavigation.*
-- [ ] peekView.*
-- [ ] peekView*.*
-- [ ] merge.*
-- [ ] panel.*
-- [ ] panel*.*
-- [ ] notifications.*
-- [ ] notifications*.*
-- [ ] extensionButton.*
-- [ ] pickerGroup.*
-- [ ] terminal.*
-- [ ] welcomePage.*
-- [ ] gitDecoration.*
+
+- [x] `badge.*`
+
+
+- [x] `progressBar.background`
+
+
+- [x] `list.*`
+
+
+- [x] `editor.background`
+- [x] `editor.foreground`
+- [x] `editor.lineHighlightBackground`
+- [x] `editor.selection*`
+- [x] `editor.find*`
+- [ ] `editor.findRangeHighlightBackground`
+- [x] `editor.word*`
+- [x] `editor.hoverHighlightBackground`
+- [x] `editor.lineHighlight*`
+- [x] `editorLink.activeForeground`
+- [x] `editor.range*`
+- [x] `editorWhitespace.foreground`
+- [x] `editorIndentGuide.background`
+- [x] `editorRuler.foreground`
+- [x] `editorCodeLens.foreground`
+- [x] `editorBracketMatch.*`
+- [ ] `editorOverviewRuler.*`
+- [ ] `editorError.*`
+- [ ] `editorWarning.*`
+- [ ] `editorInfo.*`
+- [ ] `editorGutter.*`
+- [ ] `diffEditor.*`
+- [ ] `editorWidget.*`
+- [ ] `editorSuggestWidget.*`
+- [ ] `editorHoverWidget.*`
+- [ ] `debugExceptionWidget.*`
+- [ ] `editorMarkerNavigation.*`
+- [ ] `peekView.*`
+- [ ] `peekView*.*`
+- [ ] `merge.*`
+- [ ] `panel.*`
+- [ ] `panel*.*`
+- [ ] `notifications.*`
+- [ ] `notifications*.*`
+- [ ] `extensionButton.*`
+- [ ] `pickerGroup.*`
+- [ ] `terminal.*`
+- [ ] `welcomePage.*`
+- [ ] `gitDecoration.*`
 
 ## Screenshot
 HTML example code:
