@@ -1,20 +1,7 @@
 {
   "name": "Monokai GRS",
 
-  "tokenColors": [{
-      "settings": {
-        "background": "#282828",
-        "foreground": "#F0F0F0",
-        "caret": "#F0F0F0",
-        "invisibles": "#3C3C3C",
-        "lineHighlight": "#3C3C3C80",
-        "findHighlight": "#FFE792",
-        "findHighlightForeground": "#000000",
-        "selection": "#707070",
-        "selectionHighlight": "#80808080",
-        "selectionBorder": "#222218"
-      }
-    },
+  "tokenColors": [
     {
       "name": "Text",
       "scope": [
@@ -745,17 +732,21 @@
 
     "editor.lineHighlightBackground": "#303030",
 
-    "editor.selectionBackground": "#454545",
+    "editor.selectionBackground": "#AE81FF50",
     "editor.selectionForeground": "#F0F0F0",
-    "editor.selectionHighlightBackground": "#505050",
+    "editor.selectionHighlightBackground": "#50505060",
     "editor.selectionHighlightBorder": "#00000000",
 
-    "editor.findMatchBackground": "#505050",
-    "editor.findMatchHighlightBackground": "#707070",
+    "editor.findMatchBackground": "#FD971F80",
+    "editor.findMatchBorder": "#00000000",
+    "editor.findMatchHighlightBackground": "#E6DB7440",
+    "editor.findMatchHighlightBorder": "#00000000",
+    "editor.findRangeHighlightBackground": "#ff0000",
+    "editor.findRangeHighlightBorder": "#00000000",
 
-    "editor.wordHighlightBackground": "#80808080",
+    "editor.wordHighlightBackground": "#60606040",
     "editor.wordHighlightBorder": "#00000000",
-    "editor.wordHighlightStrongBackground": "#80808080",
+    "editor.wordHighlightStrongBackground": "#60606080",
     "editor.wordHighlightStrongBorder": "#00000000",
 
     "editorError.foreground": "#D32F2F",
