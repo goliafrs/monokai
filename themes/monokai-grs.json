@@ -26,6 +26,7 @@
         "punctuation.section.function.begin.bracket.round.css",
         "punctuation.section.function.end.bracket.round.css",
         "punctuation.section.function.scss",
+        "punctuation.definition.entity.css",
         "punctuation.definition.entity.begin.bracket.square.css",
         "punctuation.definition.entity.end.bracket.square.css",
         "punctuation.definition.pseudo-class.begin.bracket.round.css",
