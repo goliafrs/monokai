@@ -18,12 +18,47 @@ ext install monokai-grs
 
 ## Support language
 
-- HTML
-- VUE-HTML
-- CSS
-- SCSS
-- JavaScript
-- Markdown
+- [x] HTML
+- [x] VUE-HTML
+- [x] CSS
+- [x] SCSS
+- [ ] SASS
+- [ ] LESS
+- [ ] Stylus
+- [x] JavaScript
+- [x] Markdown
+
+## Todo list
+
+- [ ] `editor.find*.*`
+- [ ] `editorLink.*`
+- [ ] `editor.range*.*`
+- [ ] `editorWhitespace.*`
+- [ ] `editorCodeLens.*`
+- [ ] `editorBracketMatch.*`
+- [ ] `editorOverviewRuler.*`
+- [ ] `editorError.*`
+- [ ] `editorWarning.*`
+- [ ] `editorInfo.*`
+- [ ] `editorGutter.*`
+- [ ] `diffEditor.*`
+- [ ] `editorWidget.*`
+- [ ] `editorSuggestWidget.*`
+- [ ] `editorHoverWidget.*`
+- [ ] `debugExceptionWidget.*`
+- [ ] `editorMarkerNavigation.*`
+- [ ] `peekView.*`
+- [ ] `peekView*.*`
+- [ ] `merge.*`
+- [ ] `panel.*`
+- [ ] `panel*.*`
+- [ ] `notifications.*`
+- [ ] `notifications*.*`
+- [ ] `extensionButton.*`
+- [ ] `pickerGroup.*`
+- [ ] `terminal.*`
+- [ ] `welcomePage.*`
+- [ ] `gitDecoration.*`
 
 ## Screenshot
 HTML example code:

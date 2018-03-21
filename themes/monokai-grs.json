@@ -747,7 +747,7 @@
     "editor.findMatchHighlightBackground": "#707070",
     "editor.wordHighlightBackground": "#303030",
 
-    "editorError.foreground": "#F92672",
+    "editorError.foreground": "#D32F2F",
     "editorRuler.foreground": "#505050",
     "editorCursor.foreground": "#F0F0F0",
 
