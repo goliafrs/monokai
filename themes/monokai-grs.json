@@ -745,7 +745,11 @@
     "editor.selectionBackground": "#404040",
     "editor.findMatchBackground": "#808080",
     "editor.findMatchHighlightBackground": "#707070",
-    "editor.wordHighlightBackground": "#303030",
+
+    "editor.wordHighlightBackground": "#FD971F80",
+    "editor.wordHighlightBorder": "#00000000",
+    "editor.wordHighlightStrongBackground": "#FD971F80",
+    "editor.wordHighlightStrongBorder": "#00000000",
 
     "editorError.foreground": "#D32F2F",
     "editorRuler.foreground": "#505050",
