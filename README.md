@@ -30,6 +30,7 @@ ext install monokai-grs
 
 ## Todo list
 
+### Base Colors
 - [x] `focusBorder`
 - [x] `foreground`
 - [x] `widget.shadow`
@@ -37,55 +38,58 @@ ext install monokai-grs
 - [x] `descriptionForeground`
 - [x] `errorForeground`
 
-
+### Text Colors
 - [ ] `textBlockQuote.*`
 - [ ] `textCodeBlock.background`
 - [ ] `textLink.*`
 - [ ] `textPreformat.foreground`
 - [ ] `textSeparator.foreground`
 
-
+### Button Control
 - [x] `button.*`
+
+
+### Dropdown Control
 - [x] `dropdown.*`
+
+### Input Control
 - [x] `input.*`
 - [x] `inputOption.activeBorder`
 - [ ] `inputValidation.*`
 
-
+### Scroll Bar Control
 - [x] `scrollbar.shadow`
 - [x] `scrollbarSlider.*`
 
-
+### Badge
 - [x] `badge.*`
 
-
+### Progress Bar
 - [x] `progressBar.background`
 
-
+### Lists and Trees
 - [x] `list.*`
 
-
+### Activity Bar
 - [x] `activityBar.*`
 - [x] `activityBarBadge.*`
 
-
+### Side Bar
 - [x] `sideBar.*`
 - [x] `sideBarTitle.foreground`
 - [x] `sideBarSectionHeader.*`
 
-
+### Editor Groups & Tabs
 - [x] `editorGroup.*`
 - [x] `editorGroupHeader.*`
-
-
 - [x] `tab.*`
 
-
+### Editor Colors
 - [x] `editor.background`
 - [x] `editor.foreground`
 - [x] `editorLineNumber.foreground`
 
-
+### Other (not sorted)
 - [x] `editor.lineHighlightBackground`
 - [x] `editor.selection*`
 - [x] `editor.find*`
