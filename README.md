@@ -30,6 +30,34 @@ ext install monokai-grs
 
 ## Todo list
 
+- [x] `focusBorder`
+- [x] `foreground`
+- [x] `widget.shadow`
+- [x] `selection.background`
+- [ ] `descriptionForeground`
+- [x] `errorForeground`
+
+- [ ] `textBlockQuote.*`
+- [ ] `textCodeBlock.background`
+- [ ] `textLink.*`
+- [ ] `textPreformat.foreground`
+- [ ] `textSeparator.foreground`
+
+- [x] `button.*`
+- [x] `dropdown.*`
+- [x] `input.*`
+- [x] `inputOption.activeBorder`
+- [ ] `inputValidation.*`
+
+- [x] `scrollbar.shadow`
+- [x] `scrollbarSlider.*`
+
+- [x] `badge.*`
+
+- [x] `progressBar.background`
+
+- [x] `list.*`
+
 - [x] `editor.background`
 - [x] `editor.foreground`
 - [x] `editor.lineHighlightBackground`
