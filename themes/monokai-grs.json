@@ -749,12 +749,12 @@
     "editor.selectionHighlightBackground": "#505050",
     "editor.selectionHighlightBorder": "#00000000",
 
-    "editor.findMatchBackground": "#808080",
-    "editor.findMatchHighlightBackground": "#505050",
+    "editor.findMatchBackground": "#505050",
+    "editor.findMatchHighlightBackground": "#707070",
 
-    "editor.wordHighlightBackground": "#50505080",
+    "editor.wordHighlightBackground": "#80808080",
     "editor.wordHighlightBorder": "#00000000",
-    "editor.wordHighlightStrongBackground": "#50505080",
+    "editor.wordHighlightStrongBackground": "#80808080",
     "editor.wordHighlightStrongBorder": "#00000000",
 
     "editorError.foreground": "#D32F2F",
