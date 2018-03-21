@@ -706,7 +706,7 @@
     "foreground": "#F0F0F0",
     "widget.shadow": "#050505",
     "selection.background": "#AE81FF50",
-    "descriptionForeground": "#ff0000",
+    "descriptionForeground": "#909090",
     "errorForeground": "#E53935",
 
     "button.background": "#0D47A1",

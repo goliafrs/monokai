@@ -34,7 +34,7 @@ ext install monokai-grs
 - [x] `foreground`
 - [x] `widget.shadow`
 - [x] `selection.background`
-- [ ] `descriptionForeground`
+- [x] `descriptionForeground`
 - [x] `errorForeground`
 
 - [ ] `textBlockQuote.*`
