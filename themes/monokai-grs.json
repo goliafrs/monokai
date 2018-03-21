@@ -785,7 +785,7 @@
     "list.focusBackground": "#404040",
     "list.focusForeground": "#F0F0F0",
     "list.hoverBackground": "#505050",
-    "list.highlightForeground": "#0D47A1",
+    "list.highlightForeground": "#66D9EF",
 
     "notification.background": "#202020",
 
