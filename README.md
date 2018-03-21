@@ -37,13 +37,11 @@ ext install monokai-grs
 - [ ] `descriptionForeground`
 - [x] `errorForeground`
 
-
 - [ ] `textBlockQuote.*`
 - [ ] `textCodeBlock.background`
 - [ ] `textLink.*`
 - [ ] `textPreformat.foreground`
 - [ ] `textSeparator.foreground`
-
 
 - [x] `button.*`
 - [x] `dropdown.*`
@@ -51,22 +49,31 @@ ext install monokai-grs
 - [x] `inputOption.activeBorder`
 - [ ] `inputValidation.*`
 
-
 - [x] `scrollbar.shadow`
 - [x] `scrollbarSlider.*`
 
-
 - [x] `badge.*`
-
 
 - [x] `progressBar.background`
 
-
 - [x] `list.*`
 
+- [x] `activityBar.*`
+- [x] `activityBarBadge.*`
+
+- [x] `sideBar.*`
+- [x] `sideBarTitle.foreground`
+- [x] `sideBarSectionHeader.*`
+
+- [x] `editorGroup.*`
+- [x] `editorGroupHeader.*`
+
+- [x] `tab.*`
 
 - [x] `editor.background`
 - [x] `editor.foreground`
+- [x] `editorLineNumber.foreground`
+
 - [x] `editor.lineHighlightBackground`
 - [x] `editor.selection*`
 - [x] `editor.find*`
