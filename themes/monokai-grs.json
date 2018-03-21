@@ -744,7 +744,7 @@
 
     "editor.lineHighlightBackground": "#303030",
 
-    "editor.selectionBackground": "#404040",
+    "editor.selectionBackground": "#454545",
     "editor.selectionForeground": "#F0F0F0",
     "editor.selectionHighlightBackground": "#505050",
     "editor.selectionHighlightBorder": "#00000000",
@@ -784,7 +784,7 @@
     "list.inactiveFocusForeground": "#F0F0F0",
     "list.focusBackground": "#404040",
     "list.focusForeground": "#F0F0F0",
-    "list.hoverBackground": "#505050",
+    "list.hoverBackground": "#454545",
     "list.highlightForeground": "#66D9EF",
 
     "notification.background": "#202020",
