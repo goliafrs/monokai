@@ -46,6 +46,7 @@
         "punctuation.definition.block.js",
         "punctuation.definition.parameters.begin.js",
         "punctuation.definition.parameters.end.js",
+        "support.class.builtin.js",
         "meta.brace.square.js",
         "meta.brace.round.js",
         "meta.tag.structure.any.html",
