@@ -44,8 +44,8 @@ ext install monokai-grs
 - [x] `editorWhitespace.foreground`
 - [x] `editorIndentGuide.background`
 - [x] `editorRuler.foreground`
-- [ ] `editorCodeLens.*`
-- [ ] `editorBracketMatch.*`
+- [x] `editorCodeLens.foreground`
+- [x] `editorBracketMatch.*`
 - [ ] `editorOverviewRuler.*`
 - [ ] `editorError.*`
 - [ ] `editorWarning.*`

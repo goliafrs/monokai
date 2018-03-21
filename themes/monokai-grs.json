@@ -735,8 +735,20 @@
     "editorWhitespace.foreground": "#505050",
     
     "editorIndentGuide.background": "#202020",
-    
+
     "editorRuler.foreground": "#505050",
+
+    "editorCodeLens.foreground": "#505050",
+
+    "editorBracketMatch.background": "#00000000",
+    "editorBracketMatch.border": "#AE81FF",
+
+    "editorOverviewRuler.border": "#00000000",
+    "editorOverviewRuler.findMatchForeground": "#FD971F",
+    "editorOverviewRuler.rangeHighlightForeground": "#E6DB74",
+    "editorOverviewRuler.selectionHighlightForeground": "#505050",
+    "editorOverviewRuler.wordHighlightForeground": "#606060",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#707070",
     
     "activityBar.background": "#242424",
     "activityBar.foreground": "#F0F0F0",
