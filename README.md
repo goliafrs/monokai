@@ -30,11 +30,20 @@ ext install monokai-grs
 
 ## Todo list
 
-- [x] `editor.selection*.*`
-- [ ] `editor.find*.*`
-- [ ] `editorLink.*`
-- [ ] `editor.range*.*`
-- [ ] `editorWhitespace.*`
+- [x] `editor.background`
+- [x] `editor.foreground`
+- [x] `editor.lineHighlightBackground`
+- [x] `editor.selection*`
+- [x] `editor.find*`
+- [ ] `editor.findRangeHighlightBackground`
+- [x] `editor.word*`
+- [x] `editor.hoverHighlightBackground`
+- [x] `editor.lineHighlight*`
+- [x] `editorLink.activeForeground`
+- [x] `editor.range*`
+- [x] `editorWhitespace.foreground`
+- [x] `editorIndentGuide.background`
+- [x] `editorRuler.foreground`
 - [ ] `editorCodeLens.*`
 - [ ] `editorBracketMatch.*`
 - [ ] `editorOverviewRuler.*`
