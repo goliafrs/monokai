@@ -30,6 +30,7 @@ ext install monokai-grs
 
 ## Todo list
 
+- [x] `editor.selection*.*`
 - [ ] `editor.find*.*`
 - [ ] `editorLink.*`
 - [ ] `editor.range*.*`

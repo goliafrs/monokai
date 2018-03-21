@@ -741,10 +741,16 @@
 
     "editor.background": "#202020",
     "editor.foreground": "#F0F0F0",
+
     "editor.lineHighlightBackground": "#303030",
+
     "editor.selectionBackground": "#404040",
+    "editor.selectionForeground": "#F0F0F0",
+    "editor.selectionHighlightBackground": "#606060",
+    "editor.selectionHighlightBorder": "#00000000",
+
     "editor.findMatchBackground": "#808080",
-    "editor.findMatchHighlightBackground": "#707070",
+    "editor.findMatchHighlightBackground": "#606060",
 
     "editor.wordHighlightBackground": "#FD971F80",
     "editor.wordHighlightBorder": "#00000000",
