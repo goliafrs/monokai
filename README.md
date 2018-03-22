@@ -84,25 +84,18 @@ ext install monokai-grs
 - [x] `tab.*`
 
 ### Editor Colors
-- [x] `editor.background`
-- [x] `editor.foreground`
-- [x] `editorLineNumber.foreground`
-
-### Other (not sorted)
-- [x] `editor.lineHighlightBackground`
-- [x] `editor.selection*`
-- [x] `editor.find*`
+- [x] `editor.*`
 - [ ] `editor.findRangeHighlightBackground`
-- [x] `editor.word*`
-- [x] `editor.hoverHighlightBackground`
-- [x] `editor.lineHighlight*`
+- [x] `editorLineNumber.foreground`
+- [x] `editorCursor.*`
 - [x] `editorLink.activeForeground`
-- [x] `editor.range*`
 - [x] `editorWhitespace.foreground`
 - [x] `editorIndentGuide.background`
 - [x] `editorRuler.foreground`
 - [x] `editorCodeLens.foreground`
 - [x] `editorBracketMatch.*`
+
+### Other (not sorted)
 - [ ] `editorOverviewRuler.*`
 - [ ] `editorError.*`
 - [ ] `editorWarning.*`

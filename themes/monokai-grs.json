@@ -790,10 +790,19 @@
 
     "editorLineNumber.foreground": "#505050",
 
+    "editorCursor.background": "#00000000",
+    "editorCursor.foreground": "#F0F0F0",
+
     "editor.selectionBackground": "#AE81FF50",
     "editor.selectionForeground": "#F0F0F0",
     "editor.selectionHighlightBackground": "#50505060",
     "editor.selectionHighlightBorder": "#00000000",
+    "editor.inactiveSelectionBackground": "#AE81FF20",
+
+    "editor.wordHighlightBackground": "#60606040",
+    "editor.wordHighlightBorder": "#00000000",
+    "editor.wordHighlightStrongBackground": "#60606080",
+    "editor.wordHighlightStrongBorder": "#00000000",
 
     "editor.findMatchBackground": "#FD971F80",
     "editor.findMatchBorder": "#00000000",
@@ -801,11 +810,6 @@
     "editor.findMatchHighlightBorder": "#00000000",
     "editor.findRangeHighlightBackground": "#ff0000",
     "editor.findRangeHighlightBorder": "#00000000",
-
-    "editor.wordHighlightBackground": "#60606040",
-    "editor.wordHighlightBorder": "#00000000",
-    "editor.wordHighlightStrongBackground": "#60606080",
-    "editor.wordHighlightStrongBorder": "#00000000",
 
     "editor.hoverHighlightBackground": "#60606060",
 
@@ -826,7 +830,7 @@
     "editorCodeLens.foreground": "#505050",
 
     "editorBracketMatch.background": "#00000000",
-    "editorBracketMatch.border": "#AE81FF",
+    "editorBracketMatch.border": "#F0F0F0",
 
     "editorOverviewRuler.border": "#00000000",
     "editorOverviewRuler.findMatchForeground": "#FD971F",
@@ -838,7 +842,6 @@
     "diffEditor.insertedTextBackground": "#00809B33",
 
     "editorError.foreground": "#E53935",
-    "editorCursor.foreground": "#F0F0F0",
 
     "editorWidget.background": "#242424",
     "editorHoverWidget.background": "#242424",
