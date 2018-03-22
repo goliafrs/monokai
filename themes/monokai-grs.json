@@ -740,7 +740,7 @@
     "list.dropBackground": "#303030",
     "list.focusBackground": "#404040",
     "list.focusForeground": "#F0F0F0",
-    "list.highlightForeground": "#66D9EF",
+    "list.highlightForeground": "#AE81FF",
     "list.hoverBackground": "#454545",
     "list.hoverForeground": "#F0F0F0",
     "list.inactiveSelectionBackground": "#303030",
