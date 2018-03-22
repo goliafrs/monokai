@@ -814,7 +814,7 @@
 
     "editorLink.activeForeground": "#0D47A1",
 
-    "editor.rangeHighlightBackground": "#E6DB7480",
+    "editor.rangeHighlightBackground": "#353535",
     "editor.rangeHighlightBorder": "#00000000",
 
     "editorWhitespace.foreground": "#505050",

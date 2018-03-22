@@ -10,5 +10,3 @@ dist
 .eslintrc.json
 
 *.log
-
-package-lock.json
