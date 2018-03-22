@@ -216,7 +216,7 @@
         "entity.name.class",
         "entity.name.module",
         "entity.name.type",
-        "entity.other.attribute-name.parent-selector-suffix.css",
+        "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
         "storage.identifier",
         "support.class"
       ],
