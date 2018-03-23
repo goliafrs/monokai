@@ -40,6 +40,7 @@
         "meta.brace.round.js",
         "meta.tag.structure.any.html",
         "meta.tag.metadata.style.html",
+        "meta.tag.metadata.script.html",
         "meta.structure.array.json",
         "meta.structure.dictionary.value.json",
         "meta.structure.dictionary.json"
