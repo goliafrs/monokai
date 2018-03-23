@@ -839,6 +839,12 @@
     "editorOverviewRuler.selectionHighlightForeground": "#505050",
     "editorOverviewRuler.wordHighlightForeground": "#606060",
     "editorOverviewRuler.wordHighlightStrongForeground": "#707070",
+    "editorOverviewRuler.modifiedForeground": "#0D47A1",
+    "editorOverviewRuler.addedForeground": "#A6E22E",
+    "editorOverviewRuler.deletedForeground": "#B71C1C",
+    "editorOverviewRuler.errorForeground": "#F44336",
+    "editorOverviewRuler.warningForeground": "#D500F9",
+    "editorOverviewRuler.infoForeground": "#2196F3",
 
     "diffEditor.insertedTextBackground": "#00809B33",
 

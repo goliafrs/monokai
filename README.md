@@ -131,7 +131,7 @@ HTML example code:
 
 CSS example code:
 
-![Example CSS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-css.png)
+![Example SCSS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-scss.png)
 
 JS example code:
 
