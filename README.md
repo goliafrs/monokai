@@ -114,7 +114,11 @@ ext install monokai-grs
 - [x] `terminalCursor.*`
 
 ### Git Colors
-- [x] `gitDecoration.*`
+- [x] `terminalCursor.*`
+
+### Welcome Page
+- [x] `welcomePage.*`
+- [ ] `walkThrough.embeddedEditorBackground`
 
 ### Other (not sorted)
 - [ ] `diffEditor.*`

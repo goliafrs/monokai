@@ -907,6 +907,9 @@
     "terminalCursor.background": "#AE81FF",
     "terminalCursor.foreground": "#F0F0F0",
 
+    "welcomePage.buttonBackground": "#404040",
+    "welcomePage.buttonHoverBackground": "#505050",
+
     "gitDecoration.modifiedResourceForeground": "#0D47A1",
     "gitDecoration.deletedResourceForeground": "#B71C1C",
     "gitDecoration.untrackedResourceForeground": "#909090",
