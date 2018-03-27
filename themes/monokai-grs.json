@@ -910,7 +910,7 @@
     "welcomePage.buttonBackground": "#404040",
     "welcomePage.buttonHoverBackground": "#505050",
 
-    "gitDecoration.modifiedResourceForeground": "#0D47A1",
+    "gitDecoration.modifiedResourceForeground": "#A6E22E",
     "gitDecoration.deletedResourceForeground": "#B71C1C",
     "gitDecoration.untrackedResourceForeground": "#909090",
     "gitDecoration.ignoredResourceForeground": "#909090",
