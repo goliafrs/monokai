@@ -839,7 +839,7 @@
     "editorOverviewRuler.selectionHighlightForeground": "#505050",
     "editorOverviewRuler.wordHighlightForeground": "#606060",
     "editorOverviewRuler.wordHighlightStrongForeground": "#707070",
-    "editorOverviewRuler.modifiedForeground": "#0D47A1",
+    "editorOverviewRuler.modifiedForeground": "#E6DB74",
     "editorOverviewRuler.addedForeground": "#A6E22E",
     "editorOverviewRuler.deletedForeground": "#B71C1C",
     "editorOverviewRuler.errorForeground": "#F44336",
@@ -854,7 +854,7 @@
     "editorInfo.border": "#00000000",
 
     "editorGutter.background": "#202020",
-    "editorGutter.modifiedBackground": "#0D47A1",
+    "editorGutter.modifiedBackground": "#E6DB74",
     "editorGutter.addedBackground": "#A6E22E",
     "editorGutter.deletedBackground": "#B71C1C",
 
@@ -910,8 +910,8 @@
     "welcomePage.buttonBackground": "#404040",
     "welcomePage.buttonHoverBackground": "#505050",
 
-    "gitDecoration.modifiedResourceForeground": "#A6E22E",
-    "gitDecoration.deletedResourceForeground": "#B71C1C",
+    "gitDecoration.modifiedResourceForeground": "#E6DB74",
+    "gitDecoration.deletedResourceForeground": "#F92672",
     "gitDecoration.untrackedResourceForeground": "#909090",
     "gitDecoration.ignoredResourceForeground": "#909090",
     "gitDecoration.conflictingResourceForeground": "#F92672"
