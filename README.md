@@ -94,10 +94,18 @@ ext install monokai-grs
 - [x] `editorRuler.foreground`
 - [x] `editorCodeLens.foreground`
 - [x] `editorBracketMatch.*`
+- [x] `editorError.*`
+- [x] `editorWarning.*`
+- [x] `editorInfo.*`
+- [x] `editorGutter.*`
+
+### Panel Colors
+- [x] `editorGutter.*`
+- [x] `editorGutter.*`
 
 ### Integrated Terminal Colors
-- [x] `terminal.*`
-- [x] `terminalCursor.*`
+- [x] `panel.*`
+- [x] `panelTitle.*`
 
 ### Other (not sorted)
 - [ ] `editorOverviewRuler.*`

@@ -846,9 +846,26 @@
     "editorOverviewRuler.warningForeground": "#D500F9",
     "editorOverviewRuler.infoForeground": "#2196F3",
 
-    "diffEditor.insertedTextBackground": "#00809B33",
-
     "editorError.foreground": "#E53935",
+    "editorError.border": "#00000000",
+    "editorWarning.foreground": "#B71C1C",
+    "editorWarning.border": "#00000000",
+    "editorInfo.foreground": "#1E88E5",
+    "editorInfo.border": "#00000000",
+
+    "editorGutter.background": "#202020",
+    "editorGutter.modifiedBackground": "#0D47A1",
+    "editorGutter.addedBackground": "#A6E22E",
+    "editorGutter.deletedBackground": "#B71C1C",
+
+    "panel.background": "#202020",
+    "panel.border": "#404040",
+    "panel.dropBackground": "#40404080",
+    "panelTitle.activeBorder": "#F0F0F0",
+    "panelTitle.activeForeground": "#F0F0F0",
+    "panelTitle.inactiveForeground": "#909090",
+
+    "diffEditor.insertedTextBackground": "#00809B33",
 
     "editorWidget.background": "#242424",
     "editorHoverWidget.background": "#242424",
