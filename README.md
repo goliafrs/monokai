@@ -100,19 +100,23 @@ ext install monokai-grs
 - [x] `editorGutter.*`
 
 ### Panel Colors
-- [x] `editorGutter.*`
-- [x] `editorGutter.*`
-
-### Integrated Terminal Colors
 - [x] `panel.*`
 - [x] `panelTitle.*`
 
+### Status Bar Colors
+- [x] `statusBar.*`
+- [x] `statusBarItem.*`
+- [ ] `statusBarItem.prominentBackground`
+- [ ] `statusBarItem.prominentHoverBackground`
+
+### Integrated Terminal Colors
+- [x] `terminal.*`
+- [x] `terminalCursor.*`
+
+### Git Colors
+- [x] `gitDecoration.*`
+
 ### Other (not sorted)
-- [ ] `editorOverviewRuler.*`
-- [ ] `editorError.*`
-- [ ] `editorWarning.*`
-- [ ] `editorInfo.*`
-- [ ] `editorGutter.*`
 - [ ] `diffEditor.*`
 - [ ] `editorWidget.*`
 - [ ] `editorSuggestWidget.*`
@@ -122,15 +126,11 @@ ext install monokai-grs
 - [ ] `peekView.*`
 - [ ] `peekView*.*`
 - [ ] `merge.*`
-- [ ] `panel.*`
-- [ ] `panel*.*`
 - [ ] `notifications.*`
 - [ ] `notifications*.*`
 - [ ] `extensionButton.*`
 - [ ] `pickerGroup.*`
-- [ ] `terminal.*`
 - [ ] `welcomePage.*`
-- [ ] `gitDecoration.*`
 
 ## Screenshot
 HTML example code:
