@@ -134,7 +134,6 @@ ext install monokai-grs
 - [ ] `notifications*.*`
 - [ ] `extensionButton.*`
 - [ ] `pickerGroup.*`
-- [ ] `welcomePage.*`
 
 ## Screenshot
 HTML example code:

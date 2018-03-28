@@ -912,7 +912,7 @@
 
     "gitDecoration.modifiedResourceForeground": "#E6DB74",
     "gitDecoration.deletedResourceForeground": "#F92672",
-    "gitDecoration.untrackedResourceForeground": "#909090",
+    "gitDecoration.untrackedResourceForeground": "#A6E22E",
     "gitDecoration.ignoredResourceForeground": "#909090",
     "gitDecoration.conflictingResourceForeground": "#F92672"
   }
