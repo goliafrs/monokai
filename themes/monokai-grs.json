@@ -711,6 +711,10 @@
     "descriptionForeground": "#909090",
     "errorForeground": "#E53935",
 
+    "textCodeBlock.background": "#40404080",
+    "textLink.activeForeground": "#F0F0F0",
+    "textLink.foreground": "#2196F3",
+
     "button.background": "#0D47A1",
     "button.foreground": "#F0F0F0",
     "button.hoverBackground": "#1E88E5",
@@ -796,9 +800,9 @@
 
     "editor.selectionBackground": "#AE81FF40",
     "editor.selectionForeground": "#F0F0F0",
+    "editor.inactiveSelectionBackground": "#AE81FF20",
     "editor.selectionHighlightBackground": "#50505060",
     "editor.selectionHighlightBorder": "#00000000",
-    "editor.inactiveSelectionBackground": "#AE81FF20",
 
     "editor.wordHighlightBackground": "#60606040",
     "editor.wordHighlightBorder": "#00000000",
@@ -817,7 +821,7 @@
     "editor.lineHighlightBackground": "#303030",
     "editor.lineHighlightBorder": "#00000000",
 
-    "editorLink.activeForeground": "#0D47A1",
+    "editorLink.activeForeground": "#2196F3",
 
     "editor.rangeHighlightBackground": "#353535",
     "editor.rangeHighlightBorder": "#00000000",
@@ -828,7 +832,7 @@
 
     "editorRuler.foreground": "#505050",
 
-    "editorCodeLens.foreground": "#505050",
+    "editorCodeLens.foreground": "#909090",
 
     "editorBracketMatch.background": "#00000000",
     "editorBracketMatch.border": "#F0F0F0",

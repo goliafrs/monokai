@@ -41,7 +41,7 @@ ext install monokai-grs
 ### Text Colors
 - [ ] `textBlockQuote.*`
 - [ ] `textCodeBlock.background`
-- [ ] `textLink.*`
+- [x] `textLink.*`
 - [ ] `textPreformat.foreground`
 - [ ] `textSeparator.foreground`
 
