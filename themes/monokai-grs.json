@@ -856,6 +856,8 @@
     "editorWarning.border": "#00000000",
     "editorInfo.foreground": "#1E88E5",
     "editorInfo.border": "#00000000",
+    "editorHint.foreground": "#E6DB74",
+    "editorHint.border": "#00000000",
 
     "editorGutter.background": "#202020",
     "editorGutter.modifiedBackground": "#E6DB74",

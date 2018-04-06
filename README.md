@@ -97,6 +97,7 @@ ext install monokai-grs
 - [x] `editorError.*`
 - [x] `editorWarning.*`
 - [x] `editorInfo.*`
+- [x] `editorHint.*`
 - [x] `editorGutter.*`
 
 ### Panel Colors
