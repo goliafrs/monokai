@@ -1,20 +1,30 @@
 # Monokai GRS
+
 Dark theme based on color shema Monokai
 
 > Theme is not finished yet
 
-## Donate
-
-if you want to support me and my project.
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/GoliafRS)
-
 ## Installation
+
 Launch VS Code, quick open `Ctrl+P`, paste the following command, and press enter.
 
 ```
 ext install monokai-grs
 ```
+
+## Screenshot
+
+HTML example code:
+
+![Example HTML](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-html.png)
+
+CSS example code:
+
+![Example SCSS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-scss.png)
+
+JS example code:
+
+![Example JS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-js.png)
 
 ## Support language
 
@@ -31,6 +41,7 @@ ext install monokai-grs
 ## Todo list
 
 ### Base Colors
+
 - [x] `focusBorder`
 - [x] `foreground`
 - [x] `widget.shadow`
@@ -39,6 +50,7 @@ ext install monokai-grs
 - [x] `errorForeground`
 
 ### Text Colors
+
 - [ ] `textBlockQuote.*`
 - [ ] `textCodeBlock.background`
 - [x] `textLink.*`
@@ -46,44 +58,55 @@ ext install monokai-grs
 - [ ] `textSeparator.foreground`
 
 ### Button Control
+
 - [x] `button.*`
 
 ### Dropdown Control
+
 - [x] `dropdown.*`
 
 ### Input Control
+
 - [x] `input.*`
 - [x] `inputOption.activeBorder`
 - [ ] `inputValidation.*`
 
 ### Scroll Bar Control
+
 - [x] `scrollbar.shadow`
 - [x] `scrollbarSlider.*`
 
 ### Badge
+
 - [x] `badge.*`
 
 ### Progress Bar
+
 - [x] `progressBar.background`
 
 ### Lists and Trees
+
 - [x] `list.*`
 
 ### Activity Bar
+
 - [x] `activityBar.*`
 - [x] `activityBarBadge.*`
 
 ### Side Bar
+
 - [x] `sideBar.*`
 - [x] `sideBarTitle.foreground`
 - [x] `sideBarSectionHeader.*`
 
 ### Editor Groups & Tabs
+
 - [x] `editorGroup.*`
 - [x] `editorGroupHeader.*`
 - [x] `tab.*`
 
 ### Editor Colors
+
 - [x] `editor.*`
 - [ ] `editor.findRangeHighlightBackground`
 - [x] `editorLineNumber.foreground`
@@ -101,27 +124,33 @@ ext install monokai-grs
 - [x] `editorGutter.*`
 
 ### Panel Colors
+
 - [x] `panel.*`
 - [x] `panelTitle.*`
 
 ### Status Bar Colors
+
 - [x] `statusBar.*`
 - [x] `statusBarItem.*`
 - [ ] `statusBarItem.prominentBackground`
 - [ ] `statusBarItem.prominentHoverBackground`
 
 ### Integrated Terminal Colors
+
 - [x] `terminal.*`
 - [x] `terminalCursor.*`
 
 ### Git Colors
+
 - [x] `terminalCursor.*`
 
 ### Welcome Page
+
 - [x] `welcomePage.*`
 - [ ] `walkThrough.embeddedEditorBackground`
 
 ### Other (not sorted)
+
 - [ ] `diffEditor.*`
 - [ ] `editorWidget.*`
 - [ ] `editorSuggestWidget.*`
@@ -136,21 +165,16 @@ ext install monokai-grs
 - [ ] `extensionButton.*`
 - [ ] `pickerGroup.*`
 
-## Screenshot
-HTML example code:
+## Donate
 
-![Example HTML](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-html.png)
+If you want to support me and my project:
 
-CSS example code:
-
-![Example SCSS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-scss.png)
-
-JS example code:
-
-![Example JS](https://github.com/GoliafRS/Monokai-GRS/raw/master/example-js.png)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/GoliafRS)
 
 ## Credits
+
 - Tested by [Equals182](https://github.com/Equals182)
 
 ## License
+
 [MIT License](https://github.com/GoliafRS/Monokai-GRS/blob/master/LICENSE)

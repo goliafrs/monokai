@@ -7,14 +7,18 @@
   "engines": {
     "vscode": "^1.13.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "icon": "icon.png",
   "contributes": {
-    "themes": [{
-      "label": "Monokai GRS",
-      "uiTheme": "vs-dark",
-      "path": "./themes/monokai-grs.json"
-    }]
+    "themes": [
+      {
+        "label": "Monokai GRS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-grs.json"
+      }
+    ]
   },
   "repository": {
     "type": "git",
@@ -26,10 +30,9 @@
   "homepage": "https://github.com/GoliafRS/Monokai-GRS/blob/master/README.md",
   "keywords": [
     "vscode",
-    "dark",
     "theme",
     "monokai",
-    "grs"
+    "dark"
   ],
   "author": {
     "name": "GoliafRS",

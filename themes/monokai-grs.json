@@ -52,10 +52,7 @@
     },
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "string.comment"
-      ],
+      "scope": ["comment", "string.comment"],
       "settings": {
         "foreground": "#787878"
       }
@@ -83,24 +80,14 @@
     },
     {
       "name": "REGEXP",
-      "scope": [
-        "constant.regexp",
-        "string.regexp",
-        "string.regexp.js",
-        "string.regexp.double-quoted.php"
-      ],
+      "scope": ["constant.regexp", "string.regexp", "string.regexp.js", "string.regexp.double-quoted.php"],
       "settings": {
         "foreground": "#E6DB74"
       }
     },
     {
       "name": "Number",
-      "scope": [
-        "constant.numeric",
-        "meta.preprocessor.numeric",
-        "keyword.other.unit",
-        "constant.sha.git-rebase"
-      ],
+      "scope": ["constant.numeric", "meta.preprocessor.numeric", "keyword.other.unit", "constant.sha.git-rebase"],
       "settings": {
         "foreground": "#AE81FF"
       }
@@ -114,19 +101,14 @@
     },
     {
       "name": "User-defined constant",
-      "scope": [
-        "constant.character",
-        "constant.other"
-      ],
+      "scope": ["constant.character", "constant.other"],
       "settings": {
         "foreground": "#AE81FF"
       }
     },
     {
       "name": "CSS property value",
-      "scope": [
-        "meta.property-value.css"
-      ],
+      "scope": ["meta.property-value.css"],
       "settings": {
         "foreground": "#AE81FF"
       }
@@ -171,12 +153,7 @@
     },
     {
       "name": "Keyword",
-      "scope": [
-        "keyword",
-        "keyword.operator.constructor",
-        "keyword.control",
-        "keyword.other"
-      ],
+      "scope": ["keyword", "keyword.operator.constructor", "keyword.control", "keyword.other"],
       "settings": {
         "foreground": "#F92672"
       }
@@ -197,10 +174,7 @@
     },
     {
       "name": "Storage",
-      "scope": [
-        "storage",
-        "storage.modifier"
-      ],
+      "scope": ["storage", "storage.modifier"],
       "settings": {
         "foreground": "#F92672"
       }
@@ -235,12 +209,7 @@
     },
     {
       "name": "Function name",
-      "scope": [
-        "entity.name.function",
-        "entity.name.function.js",
-        "entity.name.type.js",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "entity.name.function.js", "entity.name.type.js", "support.function"],
       "settings": {
         "foreground": "#A6E22E"
       }
@@ -273,10 +242,7 @@
     },
     {
       "name": "Library constant",
-      "scope": [
-        "support.constant",
-        "support.constant.dom"
-      ],
+      "scope": ["support.constant", "support.constant.dom"],
       "settings": {
         "foreground": "#66D9EF"
       }
@@ -306,10 +272,7 @@
     },
     {
       "name": "Diff",
-      "scope": [
-        "meta.diff",
-        "meta.diff.header"
-      ],
+      "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
         "foreground": "#787878"
       }
@@ -337,10 +300,7 @@
     },
     {
       "name": "Markup: emphasis",
-      "scope": [
-        "markup.italic",
-        "markup.italic.markdown"
-      ],
+      "scope": ["markup.italic", "markup.italic.markdown"],
       "settings": {
         "fontStyle": "italic"
       }
@@ -376,10 +336,7 @@
     },
     {
       "name": "Markdown: link",
-      "scope": [
-        "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown"
-      ],
+      "scope": ["markup.underline.link.markdown", "markup.underline.link.image.markdown"],
       "settings": {
         "foreground": "#AE81FF"
       }
@@ -432,10 +389,7 @@
     },
     {
       "name": "Markdown: code",
-      "scope": [
-        "markup.inline.raw.string.markdown",
-        "markup.fenced_code.block.markdown"
-      ],
+      "scope": ["markup.inline.raw.string.markdown", "markup.fenced_code.block.markdown"],
       "settings": {
         "foreground": "#66D9EF"
       }
@@ -450,11 +404,7 @@
     },
     {
       "name": "CSS media",
-      "scope": [
-        "support.constant.media",
-        "support.constant.media-type",
-        "keyword.control.at-rule.media.scss"
-      ],
+      "scope": ["support.constant.media", "support.constant.media-type", "keyword.control.at-rule.media.scss"],
       "settings": {
         "foreground": "#FD971F"
       }
@@ -482,10 +432,7 @@
     },
     {
       "name": "CSS pseudo",
-      "scope": [
-        "entity.other.attribute-name.pseudo-class.css",
-        "entity.other.attribute-name.pseudo-element.css"
-      ],
+      "scope": ["entity.other.attribute-name.pseudo-class.css", "entity.other.attribute-name.pseudo-element.css"],
       "settings": {
         "foreground": "#F0F0F0"
       }
@@ -554,10 +501,7 @@
     },
     {
       "name": "SCSS @ rule",
-      "scope": [
-        "keyword.control.at-rule.include.scss",
-        "meta.at-rule.include.scss"
-      ],
+      "scope": ["keyword.control.at-rule.include.scss", "meta.at-rule.include.scss"],
       "settings": {
         "foreground": "#FD971F"
       }
@@ -607,10 +551,7 @@
     },
     {
       "name": "PHP text",
-      "scope": [
-        "constant.other.php",
-        "meta.embedded.line.php"
-      ],
+      "scope": ["constant.other.php", "meta.embedded.line.php"],
       "settings": {
         "foreground": "#F0F0F0"
       }
@@ -659,10 +600,7 @@
     },
     {
       "name": "JS keyword operator rest",
-      "scope": [
-        "keyword.operator.rest.js",
-        "keyword.operator.spread.js"
-      ],
+      "scope": ["keyword.operator.rest.js", "keyword.operator.spread.js"],
       "settings": {
         "foreground": "#A6E22E"
       }
