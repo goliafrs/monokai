@@ -28,14 +28,14 @@ JS example code:
 
 ## Support language
 
+- [x] JavaScript
+- [-] TypeScript (not fully tested)
 - [x] HTML
-- [x] VUE-HTML
 - [x] CSS
 - [x] SCSS
 - [ ] SASS
 - [ ] LESS
 - [ ] Stylus
-- [x] JavaScript
 - [x] Markdown
 
 ## Todo list
