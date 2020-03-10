@@ -80,7 +80,7 @@
     },
     {
       "name": "REGEXP",
-      "scope": ["constant.regexp", "string.regexp", "string.regexp.js", "string.regexp.double-quoted.php"],
+      "scope": ["constant.regexp", "string.regexp", "string.regexp.js"],
       "settings": {
         "foreground": "#E6DB74"
       }
@@ -116,16 +116,25 @@
     {
       "name": "Variable",
       "scope": [
-        "variable",
         "variable.css",
         "variable.scss",
-        "variable.other.less",
         "variable.language",
+        "variable.other.js",
+        "variable.other.object.js",
+        "variable.other.object.property.js",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.alias.js",
+        "variable.other.constant.js",
+        "variable.other.constant.property.js",
+        "variable.other.property.js",
         "support.variable",
         "support.other.variable",
-        "support.type.vendored.property-name",
         "support.type.property-name",
+        "support.type.vendored.property-name",
+        "support.type.object.module.js",
         "meta.definition.variable.name",
+        "meta.object.member.js",
+        "meta.objectliteral.js",
         "meta.object-literal.key",
         "storage.type.cs",
         "storage.type.generic.cs",
@@ -159,14 +168,7 @@
     },
     {
       "name": "Keyword operator",
-      "scope": [
-        "keyword.operator",
-        "keyword.operator.new",
-        "keyword.operator.logical",
-        "keyword.operator.expression",
-        "keyword.operator.bitwise.js",
-        "keyword.operator.comparison.js"
-      ],
+      "scope": ["keyword.operator"],
       "settings": {
         "foreground": "#F0F0F0"
       }
@@ -208,14 +210,23 @@
     },
     {
       "name": "Function name",
-      "scope": ["entity.name.function", "entity.name.function.js", "entity.name.type.js", "support.function"],
+      "scope": [
+        "entity.name.function",
+        "entity.name.function.js",
+        "support.function",
+        "support.function.js",
+        "meta.function",
+        "meta.function.js",
+        "meta.function-call",
+        "meta.function-call.js"
+      ],
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
       "name": "Function argument",
-      "scope": "variable.parameter",
+      "scope": ["variable.parameter.js"],
       "settings": {
         "foreground": "#FD971F"
       }
@@ -519,66 +530,6 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html"
       ],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "PHP punctuation",
-      "scope": [
-        "punctuation.definition.tag",
-        "punctuation.section.embedded.begin.metatag.php",
-        "punctuation.section.embedded.end.metatag.php"
-      ],
-      "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "PHP punctuation expression",
-      "scope": "punctuation.terminator.expression.php",
-      "settings": {
-        "foreground": "#F0F0F0"
-      }
-    },
-    {
-      "name": "PHP logical operator",
-      "scope": "keyword.operator.logical.php",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "PHP text",
-      "scope": ["constant.other.php", "meta.embedded.line.php"],
-      "settings": {
-        "foreground": "#F0F0F0"
-      }
-    },
-    {
-      "name": "PHP function name",
-      "scope": "entity.name.function.php",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "PHP function arguments",
-      "scope": "meta.function.arguments.php",
-      "settings": {
-        "foreground": "#FD971F"
-      }
-    },
-    {
-      "name": "PHP constructs",
-      "scope": "support.function.construct.output.php",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "PHP array",
-      "scope": "support.function.construct.php",
       "settings": {
         "foreground": "#F92672"
       }
