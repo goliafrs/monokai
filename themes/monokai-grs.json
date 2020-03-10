@@ -134,7 +134,6 @@
         "support.type.object.module.js",
         "meta.definition.variable.name",
         "meta.object.member.js",
-        "meta.objectliteral.js",
         "meta.object-literal.key",
         "storage.type.cs",
         "storage.type.generic.cs",
