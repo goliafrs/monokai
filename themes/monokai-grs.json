@@ -127,31 +127,14 @@
         "variable.other.constant.js",
         "variable.other.constant.property.js",
         "variable.other.property.js",
+        "variable.object.property.js",
         "support.variable",
         "support.other.variable",
         "support.type.property-name",
         "support.type.vendored.property-name",
         "support.type.object.module.js",
         "meta.definition.variable.name",
-        "meta.object-literal.key",
-        "storage.type.cs",
-        "storage.type.generic.cs",
-        "storage.type.modifier.cs",
-        "storage.type.variable.cs",
-        "storage.type.annotation.java",
-        "storage.type.generic.java",
-        "storage.type.java",
-        "storage.type.object.array.java",
-        "storage.type.primitive.array.java",
-        "storage.type.primitive.java",
-        "storage.type.token.java",
-        "storage.type.groovy",
-        "storage.type.annotation.groovy",
-        "storage.type.parameters.groovy",
-        "storage.type.generic.groovy",
-        "storage.type.object.array.groovy",
-        "storage.type.primitive.array.groovy",
-        "storage.type.primitive.groovy"
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#66D9EF"
@@ -173,14 +156,7 @@
     },
     {
       "name": "Storage",
-      "scope": ["storage", "storage.modifier"],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "Storage type",
-      "scope": "storage.type",
+      "scope": ["storage", "storage.modifier", "storage.type"],
       "settings": {
         "foreground": "#F92672"
       }
