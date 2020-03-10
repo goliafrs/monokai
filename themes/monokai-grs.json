@@ -133,7 +133,6 @@
         "support.type.vendored.property-name",
         "support.type.object.module.js",
         "meta.definition.variable.name",
-        "meta.object.member.js",
         "meta.object-literal.key",
         "storage.type.cs",
         "storage.type.generic.cs",
@@ -209,16 +208,7 @@
     },
     {
       "name": "Function name",
-      "scope": [
-        "entity.name.function",
-        "entity.name.function.js",
-        "support.function",
-        "support.function.js",
-        "meta.function",
-        "meta.function.js",
-        "meta.function-call",
-        "meta.function-call.js"
-      ],
+      "scope": ["entity.name.function.js", "support.function.js", "meta.function.js", "meta.function-call.js"],
       "settings": {
         "foreground": "#A6E22E"
       }
