@@ -127,7 +127,6 @@
         "support.type.property-name",
         "meta.definition.variable.name",
         "meta.object-literal.key",
-        "meta.object-literal.key entity.name.function",
         "storage.type.cs",
         "storage.type.generic.cs",
         "storage.type.modifier.cs",
