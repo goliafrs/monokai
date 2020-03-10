@@ -126,6 +126,7 @@
         "variable.other.readwrite.alias.js",
         "variable.other.constant.js",
         "variable.other.constant.property.js",
+        "variable.other.constant.object.js",
         "variable.other.property.js",
         "variable.object.property.js",
         "support.variable",
