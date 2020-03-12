@@ -185,7 +185,7 @@
     },
     {
       "name": "Function name",
-      "scope": ["entity.name.function.js", "support.function.js", "meta.function-call.js"],
+      "scope": ["entity.name.function.js", "support.function.js", "support.function.json.js", "meta.function-call.js"],
       "settings": {
         "foreground": "#A6E22E"
       }
