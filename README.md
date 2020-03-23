@@ -29,7 +29,7 @@ JS example code:
 ## Support language
 
 - [x] JavaScript
-- [-] TypeScript (not fully tested)
+- [ ] TypeScript (not fully tested)
 - [x] HTML
 - [x] CSS
 - [x] SCSS
@@ -173,7 +173,7 @@ If you want to support me and my project:
 
 ## Credits
 
-- Tested by [Equals182](https://github.com/Equals182)
+- [x] Tested by [Equals182](https://github.com/Equals182)
 
 ## License
 
