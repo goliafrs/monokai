@@ -29,7 +29,7 @@ JS example code:
 ## Support language
 
 - [x] JavaScript
-- [ ] TypeScript (not fully tested)
+- [x] TypeScript (not fully tested)
 - [x] HTML
 - [x] CSS
 - [x] SCSS
