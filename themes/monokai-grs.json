@@ -12,6 +12,8 @@
         "punctuation.accessor.js",
         "punctuation.separator.comma.js",
         "punctuation.separator.array.json",
+        "punctuation.accessor.ts",
+        "punctuation.separator.comma.ts",
         "punctuation.separator.list.comma.css",
         "punctuation.terminator.rule.css",
         "punctuation.terminator.rule.scss",
@@ -19,6 +21,7 @@
         "punctuation.separator.key-value.scss",
         "punctuation.separator.delimiter.scss",
         "punctuation.separator.parameter.js",
+        "punctuation.separator.parameter.ts",
         "punctuation.section.property-list.begin.bracket.curly.css",
         "punctuation.section.property-list.end.bracket.curly.css",
         "punctuation.section.property-list.begin.bracket.curly.scss",
@@ -34,11 +37,19 @@
         "punctuation.definition.block.js",
         "punctuation.definition.parameters.begin.js",
         "punctuation.definition.parameters.end.js",
+        "punctuation.definition.block.ts",
+        "punctuation.definition.parameters.begin.ts",
+        "punctuation.definition.parameters.end.ts",
         "support.class.builtin.js",
         "support.class.promise.js",
         "support.class.console.js",
+        "support.class.builtin.ts",
+        "support.class.promise.ts",
+        "support.class.console.ts",
         "meta.brace.square.js",
         "meta.brace.round.js",
+        "meta.brace.square.ts",
+        "meta.brace.round.ts",
         "meta.tag.structure.any.html",
         "meta.tag.metadata.style.html",
         "meta.tag.metadata.script.html",
@@ -80,7 +91,7 @@
     },
     {
       "name": "REGEXP",
-      "scope": ["constant.regexp", "string.regexp", "string.regexp.js"],
+      "scope": ["constant.regexp", "string.regexp", "string.regexp.js", "string.regexp.ts"],
       "settings": {
         "foreground": "#E6DB74"
       }
@@ -129,6 +140,16 @@
         "variable.other.constant.object.js",
         "variable.other.property.js",
         "variable.object.property.js",
+        "variable.other.ts",
+        "variable.other.object.ts",
+        "variable.other.object.property.ts",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.alias.ts",
+        "variable.other.constant.ts",
+        "variable.other.constant.property.ts",
+        "variable.other.constant.object.ts",
+        "variable.other.property.ts",
+        "variable.object.property.ts",
         "support.variable",
         "support.other.variable",
         "support.type.property-name",
@@ -184,14 +205,23 @@
     },
     {
       "name": "Function name",
-      "scope": ["entity.name.function.js", "support.function.js", "support.function.json.js", "meta.function-call.js"],
+      "scope": [
+        "entity.name.function.js",
+        "support.function.js",
+        "support.function.json.js",
+        "meta.function-call.js",
+        "entity.name.function.ts",
+        "support.function.ts",
+        "support.function.tson.ts",
+        "meta.function-call.ts"
+      ],
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
       "name": "Function argument",
-      "scope": ["variable.parameter.js"],
+      "scope": ["variable.parameter.js", "variable.parameter.ts"],
       "settings": {
         "foreground": "#FD971F"
       }
@@ -202,6 +232,7 @@
         "entity.name.tag",
         "entity.name.tag.class.js",
         "entity.name.tag.class.jsx",
+        "entity.name.tag.class.ts",
         "punctuation.definition.tag.html"
       ],
       "settings": {
@@ -501,7 +532,7 @@
     },
     {
       "name": "JS punctuation",
-      "scope": "punctuation.separator.key-value.js",
+      "scope": ["punctuation.separator.key-value.js", "punctuation.separator.key-value.ts"],
       "settings": {
         "foreground": "#F0F0F0"
       }
@@ -515,37 +546,35 @@
     },
     {
       "name": "JS keyword operator rest",
-      "scope": ["keyword.operator.rest.js", "keyword.operator.spread.js"],
+      "scope": [
+        "keyword.operator.rest.js",
+        "keyword.operator.spread.js",
+        "keyword.operator.rest.ts",
+        "keyword.operator.spread.ts"
+      ],
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "JS keyword operator new",
-      "scope": "keyword.operator.new.js",
+      "name": "Keyword operator new",
+      "scope": ["keyword.operator.new.js", "keyword.operator.new.ts"],
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "JS class",
-      "scope": "entity.name.type.class.js",
+      "name": "Class",
+      "scope": ["entity.name.type.class.js", "entity.name.type.class.ts"],
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
-      "name": "JS JSON constant",
-      "scope": "support.constant.json.js",
+      "name": "JSON constant",
+      "scope": ["support.constant.json.js", "support.constant.json.ts"],
       "settings": {
         "foreground": "#F0F0F0"
-      }
-    },
-    {
-      "name": "TypeScript operator new",
-      "scope": "keyword.operator.new.ts",
-      "settings": {
-        "foreground": "#F92672"
       }
     },
     {
