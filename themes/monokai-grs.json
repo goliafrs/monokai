@@ -209,10 +209,12 @@
         "entity.name.function.js",
         "support.function.js",
         "support.function.json.js",
+        "support.function.console.js",
         "meta.function-call.js",
         "entity.name.function.ts",
         "support.function.ts",
         "support.function.tson.ts",
+        "support.function.console.ts",
         "meta.function-call.ts"
       ],
       "settings": {
