@@ -210,6 +210,7 @@
         "support.function.js",
         "support.function.json.js",
         "support.function.console.js",
+        "support.function.misc.scss",
         "meta.function-call.js",
         "entity.name.function.ts",
         "support.function.ts",
