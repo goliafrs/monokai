@@ -155,7 +155,15 @@
         "support.type.property-name",
         "support.type.vendored.property-name",
         "meta.definition.variable.name",
-        "meta.object-literal.key"
+        "meta.object-literal.key",
+        "variable.other.elixir",
+        "variable.other.object.elixir",
+        "variable.other.object.property.elixir",
+        "variable.other.readwrite.elixir",
+        "variable.other.readwrite.alias.elixir",
+        "variable.other.constant.elixir",
+        "variable.other.constant.property.elixir",
+        "variable.other.constant.object.elixir"
       ],
       "settings": {
         "foreground": "#66D9EF"
@@ -210,13 +218,16 @@
         "support.function.js",
         "support.function.json.js",
         "support.function.console.js",
-        "support.function.misc.scss",
         "meta.function-call.js",
         "entity.name.function.ts",
         "support.function.ts",
         "support.function.tson.ts",
         "support.function.console.ts",
-        "meta.function-call.ts"
+        "meta.function-call.ts",
+        "entity.name.function.elixir",
+        "support.function.elixir",
+        "support.function.json.elixir",
+        "support.function.console.elixir"
       ],
       "settings": {
         "foreground": "#A6E22E"
