@@ -161,10 +161,10 @@
         "variable.other.object.property.elixir",
         "variable.other.readwrite.elixir",
         "variable.other.readwrite.alias.elixir",
+        "variable.other.readwrite.module.elixir",
         "variable.other.constant.elixir",
         "variable.other.constant.property.elixir",
-        "variable.other.constant.object.elixir",
-        "variable.other.readwrite.module.elixir"
+        "variable.other.constant.object.elixir"
       ],
       "settings": {
         "foreground": "#66D9EF"
