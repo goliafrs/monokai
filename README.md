@@ -33,9 +33,10 @@ JS example code:
 - [x] HTML
 - [x] CSS
 - [x] SCSS
-- [ ] SASS
-- [ ] LESS
-- [ ] Stylus
+- [x] SASS (not fully tested)
+- [x] LESS (not fully tested)
+- [x] Stylus (not fully tested)
+- [x] Elixir (not fully tested)
 - [x] Markdown
 
 ## Todo list
@@ -174,6 +175,7 @@ If you want to support me and my project:
 ## Credits
 
 - [x] Tested by [Equals182](https://github.com/Equals182)
+- [x] Tested by [TheFirstAvenger](https://github.com/TheFirstAvenger)
 
 ## License
 
