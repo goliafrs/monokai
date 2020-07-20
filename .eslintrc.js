@@ -4,7 +4,7 @@ module.exports = {
   env: {
     es6: true,
     node: true,
-    browser: true
+    jest: true
   },
   parserOptions: {
     ecmaVersion: 2018,
@@ -14,6 +14,14 @@ module.exports = {
     semi: ['error', 'never'],
     'no-extra-semi': 'error',
 
+    curly: ['error', 'all'],
+
+    'brace-style': 'error',
+
+    'require-atomic-updates': 'off',
+    'no-useless-catch': 'off',
+
+    // spacing
     indent: [
       'error',
       2,
@@ -22,9 +30,15 @@ module.exports = {
         VariableDeclarator: 'first'
       }
     ],
-
     'no-trailing-spaces': 'error',
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'block-spacing': 'error',
+    'keyword-spacing': [
+      'error',
+      {
+        before: true,
+        after: true
+      }
+    ],
 
     // comma
     'comma-style': ['error', 'last'],
@@ -37,20 +51,8 @@ module.exports = {
       }
     ],
 
-    'brace-style': 'error',
-    'block-spacing': 'error',
-    'keyword-spacing': [
-      'error',
-      {
-        before: true,
-        after: true
-      }
-    ],
-    'require-atomic-updates': 'off',
-    'no-useless-catch': 'off',
-
     // functions
-    'function-paren-newline': ['error', 'consistent'],
+    'function-paren-newline': ['error', { minItems: 4 }],
     'func-call-spacing': ['error', 'never'],
     'space-before-function-paren': [
       'error',
@@ -104,6 +106,15 @@ module.exports = {
     // quotes
     quotes: ['error', 'single'],
     'quote-props': ['error', 'as-needed'],
-    'jsx-quotes': ['error', 'prefer-single']
+    'jsx-quotes': ['error', 'prefer-single'],
+
+    // variables
+    'prefer-const': [
+      'error',
+      {
+        destructuring: 'all',
+        ignoreReadBeforeAssign: true
+      }
+    ]
   }
 }

@@ -2,7 +2,7 @@
   "name": "monokai-grs",
   "displayName": "Monokai GRS",
   "description": "Dark theme based on color shema Monokai",
-  "version": "0.2.53",
+  "version": "0.2.54",
   "publisher": "GoliafRS",
   "engines": {
     "vscode": "^1.13.0"
@@ -40,8 +40,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "prettier": "^1.19.1",
-    "prettier-eslint": "^9.0.1"
+    "eslint": "^7.5.0"
   }
 }
