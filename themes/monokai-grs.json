@@ -30,6 +30,7 @@
         "punctuation.definition.template-expression.end",
         "punctuation.definition.parameters.begin",
         "punctuation.definition.parameters.end",
+        "entity.name.tag.reference",
         "support.class.builtin",
         "support.class.promise",
         "support.class.console",
@@ -68,44 +69,13 @@
     {
       "name": "Variable",
       "scope": [
-        "variable.css",
-        "variable.scss",
-        "variable.language",
-        "variable.other.js",
-        "variable.other.object.js",
-        "variable.other.object.property.js",
-        "variable.other.readwrite.js",
-        "variable.other.readwrite.alias.js",
-        "variable.other.constant.js",
-        "variable.other.constant.property.js",
-        "variable.other.constant.object.js",
-        "variable.other.property.js",
-        "variable.object.property.js",
-        "variable.other.ts",
-        "variable.other.object.ts",
-        "variable.other.object.property.ts",
-        "variable.other.readwrite.ts",
-        "variable.other.readwrite.alias.ts",
-        "variable.other.constant.ts",
-        "variable.other.constant.property.ts",
-        "variable.other.constant.object.ts",
-        "variable.other.property.ts",
-        "variable.object.property.ts",
+        "variable",
         "support.variable",
         "support.other.variable",
         "support.type.property-name",
         "support.type.vendored.property-name",
         "meta.definition.variable.name",
-        "meta.object-literal.key",
-        "variable.other.elixir",
-        "variable.other.object.elixir",
-        "variable.other.object.property.elixir",
-        "variable.other.readwrite.elixir",
-        "variable.other.readwrite.alias.elixir",
-        "variable.other.readwrite.module.elixir",
-        "variable.other.constant.elixir",
-        "variable.other.constant.property.elixir",
-        "variable.other.constant.object.elixir"
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#66D9EF"
@@ -120,6 +90,15 @@
         "foreground": "#787878"
       }
     },
+    {
+      "name": "Link",
+      "scope": [
+        "string.detected-link"
+      ],
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    }
     {
       "name": "REGEXP",
       "scope": [
@@ -162,19 +141,12 @@
       }
     },
     {
-      "name": "CSS property value",
-      "scope": [
-        "meta.property-value.css"
-      ],
-      "settings": {
-        "foreground": "#AE81FF"
-      }
-    },
-    {
       "name": "Keyword",
       "scope": [
         "keyword",
         "keyword.operator.constructor",
+        "keyword.operator.expression",
+        "keyword.operator.new",
         "keyword.control",
         "keyword.other"
       ],
@@ -185,19 +157,11 @@
     {
       "name": "Keyword operator",
       "scope": [
-        "keyword.operator"
+        "keyword.operator",
+        "keyword.operator.logical"
       ],
       "settings": {
         "foreground": "#F0F0F0"
-      }
-    },
-    {
-      "name": "Keyword operator expression",
-      "scope": [
-        "keyword.operator.expression"
-      ],
-      "settings": {
-        "foreground": "#F92672"
       }
     },
     {
@@ -211,20 +175,12 @@
       }
     },
     {
-      "name": "Keyword operator new",
-      "scope": [
-        "keyword.operator.new"
-      ],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
       "name": "Storage",
       "scope": [
         "storage",
         "storage.modifier",
-        "storage.type"
+        "storage.type",
+        "punctuation.definition.block.tag"
       ],
       "settings": {
         "foreground": "#F92672"
@@ -236,12 +192,20 @@
         "entity.name.class",
         "entity.name.module",
         "entity.name.type",
-        "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
         "storage.identifier",
         "support.class"
       ],
       "settings": {
         "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "JS like class",
+      "scope": [
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "#FD971F"
       }
     },
     {
@@ -271,25 +235,6 @@
       ],
       "settings": {
         "foreground": "#FD971F"
-      }
-    },
-    {
-      "name": "Tag name",
-      "scope": [
-        "entity.name.tag",
-        "punctuation.definition.tag"
-      ],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "Tag attribute",
-      "scope": [
-        "entity.other.attribute-name"
-      ],
-      "settings": {
-        "foreground": "#A6E22E"
       }
     },
     {
@@ -502,65 +447,29 @@
       }
     },
     {
-      "name": "CSS media",
+      "name": "Tag name",
       "scope": [
-        "support.constant.media",
-        "support.constant.media-type",
-        "keyword.control.at-rule.media.scss"
-      ],
-      "settings": {
-        "foreground": "#FD971F"
-      }
-    },
-    {
-      "name": "CSS media constant",
-      "scope": [
-        "support.constant.media.css"
-      ],
-      "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "CSS mixin",
-      "scope": [
-        "entity.other.attribute-name.class.mixin.css"
-      ],
-      "settings": {
-        "foreground": "#FD971F"
-      }
-    },
-    {
-      "name": "CSS ID",
-      "scope": [
-        "entity.other.attribute-name.id.css"
+        "entity.name.tag",
+        "punctuation.definition.tag",
+        "entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
-      "name": "CSS pseudo",
+      "name": "Tag attribute",
       "scope": [
-        "entity.other.attribute-name.pseudo-class.css",
-        "entity.other.attribute-name.pseudo-element.css"
-      ],
-      "settings": {
-        "foreground": "#F0F0F0"
-      }
-    },
-    {
-      "name": "CSS class",
-      "scope": [
-        "entity.other.attribute-name.class.css"
+        "entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
-      "name": "CSS value",
+      "name": "CSS like property value",
       "scope": [
+        "meta.property-value",
         "support.constant.property-value",
         "support.constant.font-name",
         "support.constant.color",
@@ -572,72 +481,69 @@
       }
     },
     {
-      "name": "CSS media operator",
+      "name": "CSS like media",
       "scope": [
-        "keyword.operator.logical.scss"
-      ],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "CSS tag name",
-      "scope": [
-        "entity.name.tag.reference.scss"
-      ],
-      "settings": {
-        "foreground": "#F0F0F0"
-      }
-    },
-    {
-      "name": "CSS url",
-      "scope": [
-        "variable.parameter.url.css"
-      ],
-      "settings": {
-        "foreground": "#E6DB74"
-      }
-    },
-    {
-      "name": "SCSS url",
-      "scope": [
-        "variable.parameter.url.scss"
-      ],
-      "settings": {
-        "foreground": "#E6DB74"
-      }
-    },
-    {
-      "name": "CSS attribute name",
-      "scope": [
-        "entity.name.tag.css"
-      ],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "SCSS property name",
-      "scope": [
-        "meta.property-name.scss"
-      ],
-      "settings": {
-        "foreground": "#66D9EF"
-      }
-    },
-    {
-      "name": "SCSS @ rule",
-      "scope": [
-        "keyword.control.at-rule.include.scss",
-        "meta.at-rule.include.scss"
+        "support.constant.media",
+        "support.constant.media-type",
+        "keyword.control.at-rule.media"
       ],
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
-      "name": "CSS property name",
+      "name": "CSS like media constant",
       "scope": [
+        "support.constant.media"
+      ],
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "CSS like at rules",
+      "scope": [
+        "entity.other.attribute-name.class.mixin",
+        "keyword.control.at-rule.include",
+        "meta.at-rule.include"
+      ],
+      "settings": {
+        "foreground": "#FD971F"
+      }
+    },
+    {
+      "name": "CSS like pseudo",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#F0F0F0"
+      }
+    },
+    {
+      "name": "CSS class",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity"
+      ],
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "CSS like url",
+      "scope": [
+        "variable.parameter.url"
+      ],
+      "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "CSS like property name",
+      "scope": [
+        "meta.property-name",
         "support.type.property-name"
       ],
       "settings": {
@@ -645,32 +551,12 @@
       }
     },
     {
-      "name": "Class",
-      "scope": [
-        "entity.name.type.class.js",
-        "entity.name.type.class.ts"
-      ],
-      "settings": {
-        "foreground": "#FD971F"
-      }
-    },
-    {
       "name": "JSON constant",
       "scope": [
-        "support.constant.json.js",
-        "support.constant.json.ts"
+        "support.constant.json"
       ],
       "settings": {
         "foreground": "#F0F0F0"
-      }
-    },
-    {
-      "name": "Link",
-      "scope": [
-        "string.detected-link"
-      ],
-      "settings": {
-        "foreground": "#AE81FF"
       }
     }
   ],
