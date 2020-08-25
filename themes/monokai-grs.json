@@ -98,7 +98,7 @@
       "settings": {
         "foreground": "#AE81FF"
       }
-    }
+    },
     {
       "name": "REGEXP",
       "scope": [
