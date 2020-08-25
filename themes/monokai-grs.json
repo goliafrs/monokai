@@ -1,61 +1,43 @@
 {
   "name": "Monokai GRS",
 
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Text",
       "scope": [
         "text",
         "text.xml",
         "text.html.basic",
         "text.html.markdown",
-        "punctuation.accessor.js",
-        "punctuation.separator.comma.js",
-        "punctuation.separator.array.json",
-        "punctuation.accessor.ts",
-        "punctuation.separator.comma.ts",
-        "punctuation.separator.list.comma.css",
-        "punctuation.terminator.rule.css",
-        "punctuation.terminator.rule.scss",
-        "punctuation.separator.key-value.css",
-        "punctuation.separator.key-value.scss",
-        "punctuation.separator.delimiter.scss",
-        "punctuation.separator.parameter.js",
-        "punctuation.separator.parameter.ts",
-        "punctuation.section.property-list.begin.bracket.curly.css",
-        "punctuation.section.property-list.end.bracket.curly.css",
-        "punctuation.section.property-list.begin.bracket.curly.scss",
-        "punctuation.section.property-list.end.bracket.curly.scss",
-        "punctuation.section.function.begin.bracket.round.css",
-        "punctuation.section.function.end.bracket.round.css",
-        "punctuation.section.function.scss",
-        "punctuation.definition.entity.css",
-        "punctuation.definition.entity.begin.bracket.square.css",
-        "punctuation.definition.entity.end.bracket.square.css",
-        "punctuation.definition.pseudo-class.begin.bracket.round.css",
-        "punctuation.definition.pseudo-class.end.bracket.round.css",
-        "punctuation.definition.block.js",
-        "punctuation.definition.parameters.begin.js",
-        "punctuation.definition.parameters.end.js",
-        "punctuation.definition.block.ts",
-        "punctuation.definition.parameters.begin.ts",
-        "punctuation.definition.parameters.end.ts",
-        "support.class.builtin.js",
-        "support.class.promise.js",
-        "support.class.console.js",
-        "support.class.builtin.ts",
-        "support.class.promise.ts",
-        "support.class.console.ts",
-        "meta.brace.square.js",
-        "meta.brace.round.js",
-        "meta.brace.square.ts",
-        "meta.brace.round.ts",
-        "meta.tag.structure.any.html",
-        "meta.tag.metadata.style.html",
-        "meta.tag.metadata.script.html",
-        "meta.structure.array.json",
-        "meta.structure.dictionary.value.json",
-        "meta.structure.dictionary.json"
+        "punctuation.accessor",
+        "punctuation.separator.comma",
+        "punctuation.separator.array",
+        "punctuation.terminator.rule",
+        "punctuation.separator.key-value",
+        "punctuation.separator.delimiter",
+        "punctuation.separator.parameter",
+        "punctuation.section.property-list.begin.bracket",
+        "punctuation.section.property-list.end.bracket",
+        "punctuation.section.keyframes.begin.bracket.curly",
+        "punctuation.section.keyframes.end.bracket.curly",
+        "punctuation.section.function.begin.bracket.round",
+        "punctuation.section.function.end.bracket.round",
+        "punctuation.section.function",
+        "punctuation.definition.entity",
+        "punctuation.definition.pseudo-class.begin.bracket.round",
+        "punctuation.definition.pseudo-class.end.bracket.round",
+        "punctuation.definition.block",
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end",
+        "support.class.builtin",
+        "support.class.promise",
+        "support.class.console",
+        "meta.brace.square",
+        "meta.brace.round",
+        "meta.tag.structure.any",
+        "meta.tag.metadata.style",
+        "meta.tag.metadata.script",
+        "meta.structure.array",
+        "meta.structure.dictionary"
       ],
       "settings": {
         "foreground": "#F0F0F0"
@@ -63,7 +45,9 @@
     },
     {
       "name": "Comment",
-      "scope": ["comment", "string.comment"],
+      "scope": [
+        "comment"
+      ],
       "settings": {
         "foreground": "#787878"
       }
@@ -71,7 +55,9 @@
     {
       "name": "String",
       "scope": [
-        "string",
+        "string.quoted",
+        "string.interpolated",
+        "string.other",
         "meta.return-type",
         "meta.type.cast.expr",
         "meta.type.new.expr",
@@ -91,7 +77,7 @@
     },
     {
       "name": "REGEXP",
-      "scope": ["constant.regexp", "string.regexp", "string.regexp.js", "string.regexp.ts"],
+      "scope": ["constant.regexp", "string.regexp"],
       "settings": {
         "foreground": "#E6DB74"
       }
@@ -215,20 +201,9 @@
     {
       "name": "Function name",
       "scope": [
-        "entity.name.function.js",
-        "support.function.js",
-        "support.function.json.js",
-        "support.function.console.js",
-        "meta.function-call.js",
-        "entity.name.function.ts",
-        "support.function.ts",
-        "support.function.tson.ts",
-        "support.function.console.ts",
-        "meta.function-call.ts",
-        "entity.name.function.elixir",
-        "support.function.elixir",
-        "support.function.json.elixir",
-        "support.function.console.elixir"
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
       ],
       "settings": {
         "foreground": "#A6E22E"
@@ -236,7 +211,9 @@
     },
     {
       "name": "Function argument",
-      "scope": ["variable.parameter.js", "variable.parameter.ts"],
+      "scope": [
+        "variable.parameter"
+      ],
       "settings": {
         "foreground": "#FD971F"
       }
@@ -245,10 +222,7 @@
       "name": "Tag name",
       "scope": [
         "entity.name.tag",
-        "entity.name.tag.class.js",
-        "entity.name.tag.class.jsx",
-        "entity.name.tag.class.ts",
-        "punctuation.definition.tag.html"
+        "punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#F92672"
