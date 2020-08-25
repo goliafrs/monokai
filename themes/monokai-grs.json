@@ -46,15 +46,6 @@
       }
     },
     {
-      "name": "Comment",
-      "scope": [
-        "comment"
-      ],
-      "settings": {
-        "foreground": "#787878"
-      }
-    },
-    {
       "name": "String",
       "scope": [
         "string",
@@ -72,6 +63,61 @@
       ],
       "settings": {
         "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "variable.language",
+        "variable.other.js",
+        "variable.other.object.js",
+        "variable.other.object.property.js",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.alias.js",
+        "variable.other.constant.js",
+        "variable.other.constant.property.js",
+        "variable.other.constant.object.js",
+        "variable.other.property.js",
+        "variable.object.property.js",
+        "variable.other.ts",
+        "variable.other.object.ts",
+        "variable.other.object.property.ts",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.alias.ts",
+        "variable.other.constant.ts",
+        "variable.other.constant.property.ts",
+        "variable.other.constant.object.ts",
+        "variable.other.property.ts",
+        "variable.object.property.ts",
+        "support.variable",
+        "support.other.variable",
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+        "meta.definition.variable.name",
+        "meta.object-literal.key",
+        "variable.other.elixir",
+        "variable.other.object.elixir",
+        "variable.other.object.property.elixir",
+        "variable.other.readwrite.elixir",
+        "variable.other.readwrite.alias.elixir",
+        "variable.other.readwrite.module.elixir",
+        "variable.other.constant.elixir",
+        "variable.other.constant.property.elixir",
+        "variable.other.constant.object.elixir"
+      ],
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#787878"
       }
     },
     {
@@ -122,52 +168,6 @@
       ],
       "settings": {
         "foreground": "#AE81FF"
-      }
-    },
-    {
-      "name": "Variable",
-      "scope": [
-        "variable.css",
-        "variable.scss",
-        "variable.language",
-        "variable.other.js",
-        "variable.other.object.js",
-        "variable.other.object.property.js",
-        "variable.other.readwrite.js",
-        "variable.other.readwrite.alias.js",
-        "variable.other.constant.js",
-        "variable.other.constant.property.js",
-        "variable.other.constant.object.js",
-        "variable.other.property.js",
-        "variable.object.property.js",
-        "variable.other.ts",
-        "variable.other.object.ts",
-        "variable.other.object.property.ts",
-        "variable.other.readwrite.ts",
-        "variable.other.readwrite.alias.ts",
-        "variable.other.constant.ts",
-        "variable.other.constant.property.ts",
-        "variable.other.constant.object.ts",
-        "variable.other.property.ts",
-        "variable.object.property.ts",
-        "support.variable",
-        "support.other.variable",
-        "support.type.property-name",
-        "support.type.vendored.property-name",
-        "meta.definition.variable.name",
-        "meta.object-literal.key",
-        "variable.other.elixir",
-        "variable.other.object.elixir",
-        "variable.other.object.property.elixir",
-        "variable.other.readwrite.elixir",
-        "variable.other.readwrite.alias.elixir",
-        "variable.other.readwrite.module.elixir",
-        "variable.other.constant.elixir",
-        "variable.other.constant.property.elixir",
-        "variable.other.constant.object.elixir"
-      ],
-      "settings": {
-        "foreground": "#66D9EF"
       }
     },
     {
