@@ -1,25 +1,39 @@
 module.exports = {
   root: true,
-  extends: ['eslint:recommended'],
+  extends: [ 'eslint:recommended' ],
   env: {
     es6: true,
     node: true,
-    jest: true
+    browser: true
   },
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
   rules: {
-    semi: ['error', 'never'],
+    semi: [ 'error', 'never' ],
     'no-extra-semi': 'error',
 
-    curly: ['error', 'all'],
+    'no-console': [
+      'error', {
+        allow: [ 'warn', 'error' ]
+      }
+    ],
+
+    curly: [ 'error', 'all' ],
 
     'brace-style': 'error',
 
     'require-atomic-updates': 'off',
     'no-useless-catch': 'off',
+
+    'no-extra-boolean-cast': 'error',
+    'no-extra-label': 'error',
+    'no-unused-labels': 'error',
+
+    'dot-notation': 'error',
+
+    'no-var': 'error',
 
     // spacing
     indent: [
@@ -31,7 +45,29 @@ module.exports = {
       }
     ],
     'no-trailing-spaces': 'error',
+    'no-whitespace-before-property': 'error',
+    'no-multi-spaces': 'error',
+    'space-in-parens': [ 'error', 'never' ],
+    'space-before-blocks': 'error',
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
+    ],
+    'space-infix-ops': 'error',
+    'space-unary-ops': 'error',
+    'spaced-comment': [ 'error', 'always' ],
     'block-spacing': 'error',
+    'semi-spacing': 'error',
+    'key-spacing': [
+      'error', {
+        afterColon: true,
+        mode: 'strict'
+      }
+    ],
     'keyword-spacing': [
       'error',
       {
@@ -41,8 +77,8 @@ module.exports = {
     ],
 
     // comma
-    'comma-style': ['error', 'last'],
-    'comma-dangle': ['error', 'never'],
+    'comma-style': [ 'error', 'last' ],
+    'comma-dangle': [ 'error', 'never' ],
     'comma-spacing': [
       'error',
       {
@@ -52,16 +88,13 @@ module.exports = {
     ],
 
     // functions
-    'function-paren-newline': ['error', { minItems: 4 }],
-    'func-call-spacing': ['error', 'never'],
-    'space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'never',
-        named: 'never',
-        asyncArrow: 'always'
-      }
-    ],
+    // 'function-paren-newline': [ 'error', { minItems: 2 } ],
+    // 'function-call-argument-newline': [ 'error', 'always' ],
+    'function-paren-newline': [ 'error', 'consistent' ],
+    'function-call-argument-newline': [ 'error', 'consistent' ],
+    'func-call-spacing': [ 'error', 'never' ],
+    'arrow-parens': [ 'error', 'as-needed' ],
+    'arrow-spacing': 'error',
 
     // objects
     'object-curly-newline': [
@@ -86,27 +119,44 @@ module.exports = {
         }
       }
     ],
-    'object-curly-spacing': ['error', 'always'],
-    'object-property-newline': ['error', { allowAllPropertiesOnSameLine: false }],
-    'no-whitespace-before-property': 'error',
+    'object-curly-spacing': [ 'error', 'always' ],
+    'object-property-newline': [
+      'error', {
+        allowAllPropertiesOnSameLine: false
+      }
+    ],
 
     // arrays
-    'array-bracket-newline': ['error', { multiline: true }],
-    'array-bracket-spacing': ['error', 'always'],
-    'array-element-newline': ['error', 'consistent'],
+    'array-bracket-newline': [
+      'error', {
+        multiline: true
+      }
+    ],
+    'array-bracket-spacing': [ 'error', 'always' ],
+    'array-element-newline': [ 'error', 'consistent' ],
 
     // lines
-    'linebreak-style': ['error', 'unix'],
-    'lines-between-class-members': ['error', 'always'],
-    'no-multiple-empty-lines': ['error', { max: 1 }],
-
-    // comments
-    'spaced-comment': ['error', 'always'],
+    'linebreak-style': [ 'error', 'unix' ],
+    'lines-between-class-members': [ 'error', 'always' ],
+    'no-multiple-empty-lines': [
+      'error', {
+        max: 1,
+        maxBOF: 0,
+        maxEOF: 1
+      }
+    ],
+    'eol-last': [ 'error', 'always' ],
+    'newline-per-chained-call': [
+      'error', {
+        ignoreChainWithDepth: 2
+      }
+    ],
+    'padded-blocks': [ 'error', 'never' ],
 
     // quotes
-    quotes: ['error', 'single'],
-    'quote-props': ['error', 'as-needed'],
-    'jsx-quotes': ['error', 'prefer-single'],
+    quotes: [ 'error', 'single' ],
+    'quote-props': [ 'error', 'as-needed' ],
+    'jsx-quotes': [ 'error', 'prefer-single' ],
 
     // variables
     'prefer-const': [
