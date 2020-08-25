@@ -23,9 +23,11 @@
         "punctuation.section.function.end.bracket.round",
         "punctuation.section.function",
         "punctuation.definition.entity",
+        "punctuation.definition.block",
         "punctuation.definition.pseudo-class.begin.bracket.round",
         "punctuation.definition.pseudo-class.end.bracket.round",
-        "punctuation.definition.block",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
         "punctuation.definition.parameters.begin",
         "punctuation.definition.parameters.end",
         "support.class.builtin",
@@ -55,9 +57,7 @@
     {
       "name": "String",
       "scope": [
-        "string.quoted",
-        "string.interpolated",
-        "string.other",
+        "string",
         "meta.return-type",
         "meta.type.cast.expr",
         "meta.type.new.expr",
