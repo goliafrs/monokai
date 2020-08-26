@@ -30,6 +30,7 @@
         "punctuation.definition.template-expression.end",
         "punctuation.definition.parameters.begin",
         "punctuation.definition.parameters.end",
+        "punctuation.definition.attribute-selector",
         "entity.name.tag.reference",
         "support.class.builtin",
         "support.class.promise",
@@ -54,6 +55,7 @@
         "meta.type.cast.expr",
         "meta.type.new.expr",
         "meta.preprocessor.string",
+        "meta.attribute-selector",
         "meta.embedded",
         "support.constant.math",
         "support.constant.dom",
@@ -505,6 +507,7 @@
       "scope": [
         "entity.other.attribute-name.class.mixin",
         "keyword.control.at-rule.include",
+        "keyword.control.at-rule.extend",
         "meta.at-rule.include"
       ],
       "settings": {
@@ -525,7 +528,8 @@
       "name": "CSS class",
       "scope": [
         "entity.other.attribute-name.class",
-        "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity"
+        "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity",
+        "entity.other.attribute-name.placeholder punctuation.definition.entity"
       ],
       "settings": {
         "foreground": "#A6E22E"
