@@ -192,13 +192,21 @@
         "entity.name.module",
         "entity.name.type",
         "storage.identifier",
-        "support.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "Class builtin name",
+      "scope": [
         "support.class.builtin",
         "support.class.promise",
         "support.class.console"
       ],
       "settings": {
-        "foreground": "#A6E22E"
+        "foreground": "#F0F0F0"
       }
     },
     {
