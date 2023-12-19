@@ -1,6 +1,6 @@
 {
   "name": "monokai-grs",
-  "displayName": "Monokai",
+  "displayName": "Monokai GRS",
   "description": "Dark theme based on color schema Monokai",
   "version": "1.0.0",
   "publisher": "goliafrs",
@@ -14,9 +14,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Monokai",
+        "label": "Monokai GRS",
         "uiTheme": "vs-dark",
-        "path": "./themes/Monokai.json"
+        "path": "./themes/Monokai-GRS.json"
       }
     ]
   },
