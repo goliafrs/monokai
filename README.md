@@ -1,8 +1,6 @@
-# Monokai GRS
+# Monokai
 
-Dark theme based on color shema Monokai
-
-> Theme is not finished yet
+Dark theme based on color schema Monokai
 
 ## Installation
 
