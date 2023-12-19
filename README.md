@@ -8,7 +8,7 @@ Dark theme based on color shema Monokai
 
 Launch VS Code, quick open `Ctrl+P`, paste the following command, and press enter.
 
-```
+```bash
 ext install monokai-grs
 ```
 
@@ -16,15 +16,15 @@ ext install monokai-grs
 
 HTML example code:
 
-![Example HTML](https://github.com/goliafrs/Monokai-GRS/raw/master/example-html.png)
+![Example HTML](https://github.com/goliafrs/monokai/raw/master/example-html.png)
 
 CSS example code:
 
-![Example SCSS](https://github.com/goliafrs/Monokai-GRS/raw/master/example-scss.png)
+![Example SCSS](https://github.com/goliafrs/monokai/raw/master/example-scss.png)
 
 JS example code:
 
-![Example JS](https://github.com/goliafrs/Monokai-GRS/raw/master/example-js.png)
+![Example JS](https://github.com/goliafrs/monokai/raw/master/example-js.png)
 
 ## Support language
 
@@ -179,4 +179,4 @@ If you want to support me and my project:
 
 ## License
 
-[MIT License](https://github.com/goliafrs/Monokai-GRS/blob/master/LICENSE)
+[MIT License](https://github.com/goliafrs/monokai/blob/master/LICENSE)
