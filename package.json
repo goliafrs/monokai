@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goliafrs/Monokai-GRS.git"
+    "url": "https://github.com/goliafrs/monokai.git"
   },
   "bugs": {
-    "url": "https://github.com/goliafrs/Monokai-GRS/issues"
+    "url": "https://github.com/goliafrs/monokai/issues"
   },
-  "homepage": "https://github.com/goliafrs/Monokai-GRS/blob/master/README.md",
+  "homepage": "https://github.com/goliafrs/monokai/blob/master/README.md",
   "keywords": [
     "vscode",
     "theme",
