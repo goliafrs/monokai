@@ -2,7 +2,7 @@
   "name": "monokai-grs",
   "displayName": "Monokai GRS",
   "description": "Dark theme based on color schema Monokai",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publisher": "goliafrs",
   "engines": {
     "vscode": "^1.13.0"
