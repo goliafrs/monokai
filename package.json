@@ -4,6 +4,9 @@
   "description": "Dark theme based on color schema Monokai",
   "version": "1.0.9",
   "publisher": "goliafrs",
+  "scripts": {
+    "postversion": "cp -r package.json .."
+  },
   "engines": {
     "vscode": "^1.13.0"
   },
