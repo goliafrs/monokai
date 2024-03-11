@@ -1,7 +1,7 @@
 {
   "name": "Monokai GRS",
   "type": "dark",
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "Text",
