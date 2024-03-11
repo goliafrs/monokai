@@ -2,7 +2,7 @@
   "name": "monokai-grs",
   "displayName": "Monokai GRS",
   "description": "Dark theme based on color schema Monokai",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "publisher": "goliafrs",
   "scripts": {
     "postversion": "cp -r package.json .."
