@@ -21,15 +21,15 @@ Links to marketplace:
 
 HTML example code:
 
-![Example HTML](https://github.com/goliafrs/monokai/raw/master/example-html.png)
+![Example HTML](https://github.com/goliafrs/monokai/raw/main/example-html.png)
 
 CSS example code:
 
-![Example SCSS](https://github.com/goliafrs/monokai/raw/master/example-scss.png)
+![Example SCSS](https://github.com/goliafrs/monokai/raw/main/example-scss.png)
 
 JS example code:
 
-![Example JS](https://github.com/goliafrs/monokai/raw/master/example-js.png)
+![Example JS](https://github.com/goliafrs/monokai/raw/main/example-js.png)
 
 ## Support language
 
@@ -57,4 +57,4 @@ If you want to support me and my project:
 
 ## License
 
-[MIT License](https://github.com/goliafrs/monokai/blob/master/LICENSE)
+[MIT License](https://github.com/goliafrs/monokai/blob/main/LICENSE)
