@@ -706,7 +706,7 @@
     "tree.inactiveIndentGuidesStroke": "#303030",
     "widget.border": "#00000000",
     "widget.shadow": "#050505",
-    "selection.background": "#AE81FF40",
+    "selection.background": "#AE81FF80",
     "button.background": "#0D47A1",
     "button.foreground": "#F0F0F0",
     "button.hoverBackground": "#1E88E5",
