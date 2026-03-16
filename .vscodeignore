@@ -1,0 +1,9 @@
+.editorconfig
+.github/**
+.gitignore
+.releaserc
+node_modules/**
+pnpm-lock.yaml
+example-html.png
+example-js.png
+example-scss.png
